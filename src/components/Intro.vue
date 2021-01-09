@@ -1,19 +1,19 @@
 <template>
   <div class="intro">
     <img src="static/apple-icon.png" alt="" />
-    Welcome to the (unofficial)
-    <b>Virtual Town Square and Grimoire</b> for Blood on the Clocktower! Please
-    add more players through the
+    Bem-vindo a (não oficial)
+    <b>Cidade Virtual</b> para Blood on the Clocktower! Por favor
+    adicione mais jogadores através do
     <span class="button" @click="toggleMenu">
       <font-awesome-icon icon="cog" /> Menu
     </span>
-    on the top right or by pressing <b>[A]</b>. You can also join a game session
-    by pressing <b>[J]</b>.<br />
+    no canto superior direito ou pressionando <b>[A]</b>. Você também pode entrar em uma sessão de jogo
+     pressionando <b>[J]</b>.<br />
     <div class="footer">
-      This project is free and open source and can be found on
+      Este projeto é gratuito e traduzido de uma versão americana de código aberto e pode ser encontrado em
       <a href="https://github.com/bra1n/townsquare" target="_blank">GitHub</a>.
-      It is not affiliated with The Pandemonium Institute. "Blood on the
-      Clocktower" is a trademark of Steven Medway and The Pandemonium Institute.
+      Não é afiliado ao Pandemonium Institute. "Blood on the
+      Clocktower" não é afiliado ao Steven Medway e ao Pandemonium Institute.
     </div>
   </div>
 </template>
