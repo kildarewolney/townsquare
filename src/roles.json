@@ -943,7 +943,7 @@
     "setup": false,
     "name": "Desastrado",
     "team": "outsider",
-    "ability": "Quanto sua morte for declarada, escolha publicamente um jogador do Bem, ou seu time perde. (Você DEVE escolher um jogador vivo)"
+    "ability": "Quando sua morte for declarada, escolha publicamente um jogador vivo do Bem, ou seu time perde."
   },
   {
     "id": "eviltwin",
