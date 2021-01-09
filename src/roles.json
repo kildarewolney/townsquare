@@ -5,15 +5,15 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 19,
-    "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",
+    "firstNightReminder": ":eye: Show the character token of a Townsfolk in play. Point to two players, one of which is that character. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
       "Cidadão",
-      "Isca"
+      "Falso"
     ],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk."
+    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um cidadão específico."
   },
   {
     "id": "librarian",
@@ -21,15 +21,15 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 20,
-    "firstNightReminder": "Show the character token of an Outsider in play. Point to two players, one of which is that character.",
+    "firstNightReminder": ":eye: Show the character token of a Outsider in play. Point to two players, one of which is that character. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
       "Forasteiro",
-      "Isca"
+      "Falso"
     ],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)"
+    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico. (ou que não há forasteiros em jogo)"
   },
   {
     "id": "investigator",
@@ -37,28 +37,28 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 21,
-    "firstNightReminder": "Show the character token of a Minion in play. Point to two players, one of which is that character.",
+    "firstNightReminder": ":eye: Show the character token of a Minion in play. Point to two players, one of which is that character. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
       "Lacaio",
-      "Isca"
+      "Falso"
     ],
     "setup": false,
-    "ability": "You start knowing that 1 of 2 players is a particular Minion."
+    "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Lacaio específico."
   },
   {
     "id": "chef",
-    "name": "Chef",
+    "name": "Chefe de Cozinha",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 22,
-    "firstNightReminder": "Show the finger signal (0, 1, 2, \u2026) for the number of pairs of neighbouring evil players.",
+    "firstNightReminder": ":eye: Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "You start knowing how many pairs of evil players there are."
+    "ability": "Você começa sabendo quantos pares de vizinhos há de jogadores do mal."
   },
   {
     "id": "empath",
@@ -66,12 +66,12 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 23,
-    "firstNightReminder": "Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath.",
-    "otherNight": 43,
-    "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
+    "firstNightReminder": ":eye: Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath. :eye-slash:",
+    "otherNight": 38,
+    "otherNightReminder": ":eye: Show the finger signal (0, 1, 2) for the number of evil neighbours. :eye-slash:",
     "reminders": [],
     "setup": false,
-    "ability": "Each night, you learn how many of your 2 alive neighbours are evil."
+    "ability": "Toda Noite, você descobre quantos jogadores são do mal, dentre os seus 2 vizinhos vivos mais próximos."
   },
   {
     "id": "fortuneteller",
@@ -80,13 +80,13 @@
     "team": "townsfolk",
     "firstNight": 24,
     "firstNightReminder": ":eye: The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. :eye-slash:",
-    "otherNight": 44,
+    "otherNight": 39,
     "otherNightReminder": ":eye: The Fortune Teller points to two players. Show the head signal (nod “yes”, shake “no”) for whether one of those players is the Demon. :eye-slash:",
     "reminders": [
-      "Isca"
+      "Falso"
     ],
     "setup": false,
-    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
+    "ability": "Toda Noite, escolha 2 jogadores: Você descobre se o Demônio é um deles. No entanto, existe um jogador do bem que é sempre detectado incorretamente."
   },
   {
     "id": "undertaker",
@@ -95,13 +95,13 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 46,
+    "otherNight": 40,
     "otherNightReminder": ":question-circle: If a player was executed today: :eye: Show that player’s character token. :eye-slash:",
     "reminders": [
       "Executado"
     ],
     "setup": false,
-    "ability": "Each night*, you learn which character died by execution today."
+    "ability": "Toda Noite*, você descobre qual personagem foi morto por execução durante o Dia."
   },
   {
     "id": "monk",
@@ -116,7 +116,7 @@
       "Protegido"
     ],
     "setup": false,
-    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
+    "ability": "Toda Noite*, escolha um jogador (exceto você): ele estará imune ao Demônio esta Noite."
   },
   {
     "id": "ravenkeeper",
@@ -125,24 +125,24 @@
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 41,
-    "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player\u2019s character token.",
+    "otherNight": 37,
+    "otherNightReminder": ":question-circle: If the Ravenkeeper died tonight: :eye: The Ravenkeeper points to a player. Show that player’s character token. :eye-slash:",
     "reminders": [],
     "setup": false,
-    "ability": "If you die at night, you are woken to choose a player: you learn their character."
+    "ability": "Se você morrer durante a Noite, acordará para escolher um jogador: Você descobre o personagem dele."
   },
   {
-    "id": "virgin",
-    "name": "Virgin",
+    "id": "mayor",
+    "name": "Prefeito",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["No ability"],
+    "reminders": [],
     "setup": false,
-    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
+    "ability": "Se houver apenas 3 jogadores vivos e não houver execução, seu time vence. Durante a Noite, sua morte pode ser substituída pela morte de outro jogador."
   },
   {
     "id": "slayer",
