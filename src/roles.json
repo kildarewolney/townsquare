@@ -351,8 +351,7 @@
     "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die."
   },
   {
-    "id": "
-    goat",
+    "id": "Scapegoat",
     "name": "Scapegoat",
     "edition": "tb",
     "team": "traveler",
