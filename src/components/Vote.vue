@@ -12,20 +12,20 @@
       <br />
       <template v-if="nominee.role.team !== 'traveler'">
         <em class="blue">
-          {{ voters.length }} vote{{ voters.length !== 1 ? "s" : "" }}
+          {{ voters.length }} voto{{ voters.length !== 1 ? "s" : "" }}
         </em>
-        in favor
-        <em>(majority is {{ Math.ceil(alive / 2) }})</em>
+        em favor
+        <em>(maioria é {{ Math.ceil(alive / 2) }})</em>
       </template>
       <template v-else>
-        <em>{{ Math.ceil(players.length / 2) }} votes</em> required for a
-        <em>majority</em>.
+        <em>{{ Math.ceil(players.length / 2) }} votos</em> requeridos para a maioria
+        <em>maioria</em>.
       </template>
 
       <div v-if="session.isVoteInProgress || session.lockedVote > 1">
         <em class="blue" v-if="voters.length">{{ voters.join(", ") }} </em>
-        <span v-else>nobody</span>
-        had their hand <em>UP</em>
+        <span v-else>ninguém</span>
+        levantou a <em>MÃO</em>
       </div>
 
       <template v-if="!session.isSpectator">
@@ -67,7 +67,7 @@
       </template>
       <template v-else-if="canVote">
         <div v-if="!session.isVoteInProgress">
-          {{ session.votingSpeed / 1000 }} seconds between votes
+          {{ session.votingSpeed / 1000 }} segundos entre os votos
         </div>
         <div class="button-group">
           <div
@@ -75,19 +75,19 @@
             @click="vote(false)"
             :class="{ disabled: !currentVote }"
           >
-            Hand DOWN
+            ABAIXAR a Mão
           </div>
           <div
             class="button demon"
             @click="vote(true)"
             :class="{ disabled: currentVote }"
           >
-            Hand UP
+            LEVANTAR a Mão
           </div>
         </div>
       </template>
       <div v-else-if="!player">
-        Please claim a seat to vote.
+        Por favor clame um assento para votar.
       </div>
     </div>
     <transition name="blur">
