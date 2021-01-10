@@ -114,26 +114,26 @@
             </li>
             <li v-if="!session.nomination" @click="nominatePlayer()">
               <font-awesome-icon icon="hand-point-right" />
-              Nomination
+              Nomeador
             </li>
             <li @click="movePlayer()">
               <font-awesome-icon icon="redo-alt" />
-              Move player
+              Mover Jogador
             </li>
             <li @click="swapPlayer()">
               <font-awesome-icon icon="exchange-alt" />
-              Swap seats
+              Trocar Lugares
             </li>
             <li @click="removePlayer">
               <font-awesome-icon icon="times-circle" />
-              Remove
+              Remover
             </li>
             <li
               @click="updatePlayer('id', '', true)"
               v-if="player.id && session.sessionId"
             >
               <font-awesome-icon icon="chair" />
-              Empty seat
+              Assento vazio
             </li>
           </template>
           <li
@@ -143,12 +143,12 @@
           >
             <font-awesome-icon icon="chair" />
             <template v-if="!player.id">
-              Claim seat
+              Clamar Assento
             </template>
             <template v-else-if="player.id === session.playerId">
-              Vacate seat
+              Liberar Assento
             </template>
-            <template v-else> Seat occupied</template>
+            <template v-else> Assento em Uso</template>
           </li>
         </ul>
       </transition>
