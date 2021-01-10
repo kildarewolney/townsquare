@@ -32,7 +32,7 @@
         }"
       >
         <font-awesome-icon icon="people-arrows" />
-        Assign {{ selectedRoles }} characters randomly
+        Atribuir {{ selectedRoles }} personagens randomicamente
       </div>
       <div class="button" @click="selectRandomRoles">
         <font-awesome-icon icon="random" />
