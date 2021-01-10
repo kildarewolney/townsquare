@@ -20,8 +20,8 @@
       </li>
     </ul>
     <div class="warning" v-if="hasSelectedSetupRoles">
-      Warning: there are characters selected that modify the game setup! The
-      randomizer does not account for these characters.
+      Aviso: existem personagens selecionados que modificam a configuração do jogo! o
+      randomizer não leva em conta esses personagens.
     </div>
     <div class="button-group">
       <div
@@ -36,7 +36,7 @@
       </div>
       <div class="button" @click="selectRandomRoles">
         <font-awesome-icon icon="random" />
-        Shuffle characters
+        Randomizar Personagens
       </div>
     </div>
   </Modal>
