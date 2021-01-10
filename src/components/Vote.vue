@@ -50,7 +50,7 @@
             Contagem
           </div>
           <div class="button" v-if="!session.isVoteInProgress" @click="start">
-            {{ session.lockedVote ? "Restart" : "Start" }}
+            {{ session.lockedVote ? "Restart" : "Iniciar" }}
           </div>
           <template v-else>
             <div
@@ -58,7 +58,7 @@
               :class="{ disabled: !session.lockedVote }"
               @click="pause"
             >
-              {{ voteTimer ? "Pause" : "Resume" }}
+              {{ voteTimer ? "Pausar" : "Retomar" }}
             </div>
             <div class="button" @click="stop">Resetar</div>
           </template>
