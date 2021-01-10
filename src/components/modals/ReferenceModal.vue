@@ -11,17 +11,17 @@
       title="Show Night Order"
     />
     <h3>
-      Character Reference
+      Referencia de Personagens
       <font-awesome-icon icon="address-card" />
       {{ edition.name || "Custom Script" }}
     </h3>
     <ul class="legend">
       <li>
-        <span class="name">Name</span>
-        <span class="icon">Icon</span>
-        <span class="ability">Ability</span>
+        <span class="name">Nome</span>
+        <span class="icon">Icone</span>
+        <span class="ability">Habilidade</span>
         <span class="player" v-if="Object.keys(playersByRole).length">
-          Player
+          Jogador
         </span>
       </li>
     </ul>
