@@ -16,6 +16,19 @@
     "ability": "Você começa sabendo que 1 dentre 2 jogadores é um cidadão específico."
   },
   {
+    "id": "lycanthrope",
+    "name": "Lobisomem",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 16,
+    "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
+    "reminders": ["Dead"],
+    "setup": false,
+    "ability": "Each night*, choose a living player: if good, they die, but they are the only player that can die tonight."
+  },
+  {
     "id": "librarian",
     "name": "Bibliotecária",
     "edition": "tb",
