@@ -6,7 +6,7 @@
     </div>
     <div class="overlay">
       <audio src="../assets/sounds/countdown.mp3" preload="auto"></audio>
-      <em class="blue">{{ nominator.name }}</em> nominated
+      <em class="blue">{{ nominator.name }}</em> nomeou
       <em>{{ nominee.name }}</em
       >!
       <br />
@@ -30,7 +30,7 @@
 
       <template v-if="!session.isSpectator">
         <div v-if="!session.isVoteInProgress && session.lockedVote < 1">
-          Time per player:
+          Tempo por jogador:
           <font-awesome-icon
             @mousedown.prevent="setVotingSpeed(-500)"
             icon="minus-circle"
@@ -47,7 +47,7 @@
             v-if="!session.isVoteInProgress"
             @click="countdown"
           >
-            Countdown
+            Contagem
           </div>
           <div class="button" v-if="!session.isVoteInProgress" @click="start">
             {{ session.lockedVote ? "Restart" : "Start" }}
@@ -60,9 +60,9 @@
             >
               {{ voteTimer ? "Pause" : "Resume" }}
             </div>
-            <div class="button" @click="stop">Reset</div>
+            <div class="button" @click="stop">Resetar</div>
           </template>
-          <div class="button demon" @click="finish">Close</div>
+          <div class="button demon" @click="finish">Fechar</div>
         </div>
       </template>
       <template v-else-if="canVote">
