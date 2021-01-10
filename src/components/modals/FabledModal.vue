@@ -1,7 +1,7 @@
 <template>
   <Modal v-if="modals.fabled && fabled.length" @close="toggleModal('fabled')">
     <h3>
-      Escolha um personagem Lendário para adicionar ao jogo
+      Escolha uma Lenda para adicionar ao jogo
     </h3>
     <ul class="tokens">
       <li v-for="role in fabled" :key="role.id" @click="setFabled(role)">
