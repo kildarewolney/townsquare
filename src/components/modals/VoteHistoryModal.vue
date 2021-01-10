@@ -11,15 +11,15 @@
       title="Clear history"
     />
 
-    <h3>Nomination history</h3>
+    <h3>Histórico de Nomeações</h3>
     <table>
       <thead>
         <tr>
-          <td>Nominator</td>
-          <td>Nominee</td>
-          <td>Type</td>
-          <td>Majority</td>
-          <td><font-awesome-icon icon="hand-paper" /> Hand up</td>
+          <td>Nomeador</td>
+          <td>Nomiado</td>
+          <td>Tipo</td>
+          <td>Maioria</td>
+          <td><font-awesome-icon icon="hand-paper" /> Levantou a Mão</td>
         </tr>
       </thead>
       <tbody>
