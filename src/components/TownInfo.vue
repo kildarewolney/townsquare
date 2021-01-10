@@ -61,7 +61,7 @@
         />
       </span>
       <span v-if="grimoire.isNight">
-        Ta de noite, ENTÃO SEM CONVERSAS NO DISCORD.
+        Noite.
         <font-awesome-icon :icon="['fas', 'cloud-moon']" />
       </span>
     </li>
