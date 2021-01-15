@@ -117,7 +117,7 @@ export default {
         ],
         [
           "Madness",
-          "https://gist.githubusercontent.com/botcbr/3397ae5dd4f9747cf4c88823522e0b18/raw/de715b379c02ea4a78d5ebc51f82d9c04dbf4ebc/gistfile1.json"
+          "https://gist.githubusercontent.com/botcbr/3397ae5dd4f9747cf4c88823522e0b18/raw/2a03660ebe285afd4ade9bca8ca981b9aec80ebd/gistfile1.json"
         ]
       ]
     };
