@@ -1300,9 +1300,11 @@
     "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's \"Seen\" reminder next to that character.",
     "otherNight": 47,
     "otherNightReminder": "Choose a character type you have not chosen yet. Point to a player whose character is of that type, if there are any. Place the Balloonist's \"Seen\" reminder next to that character.",
-    "reminders": [
-      "Visto"
-    ],
+    "reminders": ["Visto Cidadão",
+        "Visto Forasteiro",
+        "Visto Lacaio",
+        "Visto Demônio",
+        "Visto Viaante"],
     "setup": true,
     "name": "Balonista",
     "team": "townsfolk",
