@@ -115,6 +115,10 @@ export default {
           "Vigormortis High School (Teensyville)",
           "https://gist.githubusercontent.com/bra1n/1f65bd4a999524719d5dabe98c3c2d27/raw/22bbec6bf56a51a7459e5ae41ed47e41971c5445/VigormortisHighSchool.json"
         ]
+        [
+          "Madness",
+          "https://gist.githubusercontent.com/botcbr/3397ae5dd4f9747cf4c88823522e0b18/raw/8b6865f67d784197fa433bb63a33d086392d1115/gistfile1.json"
+        ]
       ]
     };
   },
