@@ -1446,7 +1446,7 @@
     "setup": false,
     "name": "Líder da Seita",
     "team": "townsfolk",
-    "ability": "A cada noite o seu alinhamento (bem/mal) muda para o mesmo de um dos seus vizinhos vivos. Se todos os jogadores do bem aderirem a seita, seu time vence."
+    "ability": "A cada noite o seu alinhamento (bem/mal) será igual a um de seus vizinhos vivos. Se todos os jogadores do bem aderirem a seita, seu time vence."
   },
   {
     "id": "preacher",
