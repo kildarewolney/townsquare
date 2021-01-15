@@ -5,7 +5,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 19,
-    "firstNightReminder": ":eye: Mostre a ficha do personagem de um Cidadão em jogo. Aponte para dois jogadores, um dos quais é esse personagem. :eye-slash:",
+    "firstNightReminder": " Mostre a ficha do personagem de um Cidadão em jogo. Aponte para dois jogadores, um dos quais é esse personagem.  ",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -34,7 +34,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 20,
-    "firstNightReminder": ":eye: Mostre o símbolo do personagem de um Forasteiro em jogo. Aponte para dois jogadores, um dos quais é esse personagem. :eye-slash:",
+    "firstNightReminder": " Mostre o símbolo do personagem de um Forasteiro em jogo. Aponte para dois jogadores, um dos quais é esse personagem.  ",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -50,7 +50,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 21,
-    "firstNightReminder": ":eye: Mostre a ficha do personagem de um Lacaio em jogo. Aponte para dois jogadores, um dos quais é esse personagem. :eye-slash:",
+    "firstNightReminder": "  Mostre a ficha do personagem de um Lacaio em jogo. Aponte para dois jogadores, um dos quais é esse personagem.  ",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -66,7 +66,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 22,
-    "firstNightReminder": ":eye: Mostre sua mão com a quantidades de dedos (0, 1, 2, ...) para o número de pares de jogadores maus vizinhos. :eye-slash:",
+    "firstNightReminder": "  Mostre sua mão com a quantidades de dedos (0, 1, 2, ...) para o número de pares de jogadores maus vizinhos.  ",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -79,9 +79,9 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 23,
-    "firstNightReminder": ":eye: Mostre sua mão com a quantidades de dedos (0, 1, 2) para o número de vizinhos malignos vivos do Empata. :eye-slash:",
+    "firstNightReminder": "  Mostre sua mão com a quantidades de dedos (0, 1, 2) para o número de vizinhos malignos vivos do Empata.  ",
     "otherNight": 38,
-    "otherNightReminder": ":eye: Mostre sua mão com a quantidades de dedos (0, 1, 2) para o número de vizinhos maus. :eye-slash:",
+    "otherNightReminder": "  Mostre sua mão com a quantidades de dedos (0, 1, 2) para o número de vizinhos maus.  ",
     "reminders": [],
     "setup": false,
     "ability": "Toda Noite, você descobre quantos jogadores são do mal, dentre os seus 2 vizinhos vivos mais próximos."
@@ -92,9 +92,9 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 24,
-    "firstNightReminder": ":eye: O Fortune Teller aponta para dois jogadores. Dê o sinal de cabeça (acene com a cabeça sim, sacuda não) para saber se um desses jogadores é o Demônio. :eye-slash:",
+    "firstNightReminder": "  O Fortune Teller aponta para dois jogadores. Dê o sinal de cabeça (acene com a cabeça sim, sacuda não) para saber se um desses jogadores é o Demônio.  ",
     "otherNight": 39,
-    "otherNightReminder": ":eye: O Fortune Teller aponta para dois jogadores. Mostre o sinal de cabeça (acene com a cabeça “sim”, sacuda “não”) para indicar se um desses jogadores é o Demônio. :eye-slash:",
+    "otherNightReminder": "  O Fortune Teller aponta para dois jogadores. Mostre o sinal de cabeça (acene com a cabeça “sim”, sacuda “não”) para indicar se um desses jogadores é o Demônio.  ",
     "reminders": [
       "Falso"
     ],
@@ -109,7 +109,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 40,
-    "otherNightReminder": ":question-circle: Se um jogador foi executado hoje: :eye: Mostra o token de personagem desse jogador. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se um jogador foi executado hoje:   Mostra o token de personagem desse jogador.  ",
     "reminders": [
       "Executado"
     ],
@@ -124,7 +124,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 10,
-    "otherNightReminder": "O player protegido anteriormente não está mais protegido. :plus-circle: :eye: O Monge aponta para um jogador e não para ele mesmo. :eye-slash: Marque esse jogador como “Protegido”. :plus-circle:",
+    "otherNightReminder": "O player protegido anteriormente não está mais protegido.     O Monge aponta para um jogador e não para ele mesmo.   Marque esse jogador como “Protegido”.  ",
     "reminders": [
       "Protegido"
     ],
@@ -139,7 +139,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 37,
-    "otherNightReminder": ":question-circle: Se o Mestre dos Corvos morreu esta noite: :eye: O Mestre dos Jogos aponta para um jogador. Mostre o token de personagem desse jogador. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se o Mestre dos Corvos morreu esta noite:   O Mestre dos Jogos aponta para um jogador. Mostre o token de personagem desse jogador.  ",
     "reminders": [],
     "setup": false,
     "ability": "Se você morrer durante a Noite, acordará para escolher um jogador: Você descobre o personagem dele."
@@ -206,9 +206,9 @@
     "edition": "tb",
     "team": "outsider",
     "firstNight": 25,
-    "firstNightReminder": ":eye: O mordomo aponta para um jogador. :eye-slash: Marque esse jogador como “Mestre”. :plus-circle:",
+    "firstNightReminder": "  O mordomo aponta para um jogador.   Marque esse jogador como “Mestre”.  ",
     "otherNight": 50,
-    "otherNightReminder": ":eye: O mordomo aponta para um jogador. :eye-slash: Marque esse jogador como “Mestre”. :plus-circle:",
+    "otherNightReminder": "  O mordomo aponta para um jogador.   Marque esse jogador como “Mestre”.  ",
     "reminders": [
       "Mestre"
     ],
@@ -276,9 +276,9 @@
     "edition": "tb",
     "team": "minion",
     "firstNight": 9,
-    "firstNightReminder": ":eye: O Envenenador aponta para um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
+    "firstNightReminder": "  O Envenenador aponta para um jogador.   Esse jogador está envenenado.  ",
     "otherNight": 6,
-    "otherNightReminder": "O jogador envenenado anteriormente não está mais envenenado. :eye: O Poisoner aponta para um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
+    "otherNightReminder": "O jogador envenenado anteriormente não está mais envenenado.   O Poisoner aponta para um jogador.   Esse jogador está envenenado.  ",
     "reminders": [
       "Envenenado"
     ],
@@ -291,9 +291,9 @@
     "edition": "tb",
     "team": "minion",
     "firstNight": 33,
-    "firstNightReminder": ":eye: Mostre o Griomorio ao Espião pelo tempo que ele precisar. :eye-slash:",
+    "firstNightReminder": "  Mostre o Griomorio ao Espião pelo tempo que ele precisar.  ",
     "otherNight": 51,
-    "otherNightReminder": ":eye: Mostre o Griomorio ao Espião pelo tempo que ele precisar. :eye-slash:",
+    "otherNightReminder": "  Mostre o Griomorio ao Espião pelo tempo que ele precisar.  ",
     "reminders": [],
     "setup": false,
     "ability": "Toda Noite, você vê o Grimório (todas as informações ocultas). Você pode ser lido por habilidades como se fosse do Bem, Cidadão ou Forasteiro (MESMO ESTANDO MORTO)."
@@ -306,7 +306,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 15,
-    "otherNightReminder": ":question-circle: Se a Promíscua se tornou o Demônio hoje: :eye: Mostre a carta 'Você é' e, em seguida, a ficha do demônio. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se a Promíscua se tornou o Demônio hoje:   Mostre a carta 'Você é' e, em seguida, a ficha do demônio.  ",
     "reminders": [
       "Demônio"
     ],
@@ -321,7 +321,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 18,
-    "otherNightReminder": ":eye: O Capeta aponta para um jogador. :eye-slash: Ele morre. :plus-circle: Se o Capeta se escolheu: • Substitua o personagem de 1 lacaio vivo por uma ficha de Capeta sobressalente. :plus-circle: • :eye: Acorde o novo Imp. Mostre o cartão "Você é" e, em seguida, o token de Capeta. :eye-slash:",
+    "otherNightReminder": "  O Capeta aponta para um jogador.   Ele morre.   Se o Capeta se escolheu: • Substitua o personagem de 1 lacaio vivo por uma ficha de Capeta sobressalente.   •   Acorde o novo Imp. Mostre o cartão "Você é" e, em seguida, o token de Capeta.  ",
     "reminders": [
       "Morto"
     ],
