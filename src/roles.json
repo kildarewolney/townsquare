@@ -278,7 +278,7 @@
     "firstNight": 9,
     "firstNightReminder": ":eye: O Envenenador aponta para um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
     "otherNight": 6,
-    "otherNightReminder": "O jogador envenenado anteriormente não está mais envenenado. :plus-circle: :eye: O Poisoner aponta para um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
+    "otherNightReminder": "O jogador envenenado anteriormente não está mais envenenado. :eye: O Poisoner aponta para um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
     "reminders": [
       "Envenenado"
     ],
