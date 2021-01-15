@@ -5,7 +5,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 19,
-    "firstNightReminder": ":eye: Show the character token of a Townsfolk in play. Point to two players, one of which is that character. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre a ficha do personagem de um Cidadão em jogo. Aponte para dois jogadores, um dos quais é esse personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -23,7 +23,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 16,
-    "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
+    "otherNightReminder": "O Lycanthrope aponta para um jogador vivo: se for bom, ele morre e ninguém mais pode morrer esta noite.",
     "reminders": ["Dead"],
     "setup": false,
     "ability": "Cada Noite*, escolha um jogador vivo: Se ele for do Bem, ele morre, mas só ele poderá morrer essa noite."
@@ -34,7 +34,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 20,
-    "firstNightReminder": ":eye: Show the character token of a Outsider in play. Point to two players, one of which is that character. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre o símbolo do personagem de um Forasteiro em jogo. Aponte para dois jogadores, um dos quais é esse personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -50,7 +50,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 21,
-    "firstNightReminder": ":eye: Show the character token of a Minion in play. Point to two players, one of which is that character. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre a ficha do personagem de um Lacaio em jogo. Aponte para dois jogadores, um dos quais é esse personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -66,7 +66,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 22,
-    "firstNightReminder": ":eye: Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre sua mão com a quantidades de dedos (0, 1, 2, ...) para o número de pares de jogadores maus vizinhos. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -79,9 +79,9 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 23,
-    "firstNightReminder": ":eye: Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre sua mão com a quantidades de dedos (0, 1, 2) para o número de vizinhos malignos vivos do Empata. :eye-slash:",
     "otherNight": 38,
-    "otherNightReminder": ":eye: Show the finger signal (0, 1, 2) for the number of evil neighbours. :eye-slash:",
+    "otherNightReminder": ":eye: Mostre sua mão com a quantidades de dedos (0, 1, 2) para o número de vizinhos maus. :eye-slash:",
     "reminders": [],
     "setup": false,
     "ability": "Toda Noite, você descobre quantos jogadores são do mal, dentre os seus 2 vizinhos vivos mais próximos."
@@ -92,9 +92,9 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 24,
-    "firstNightReminder": ":eye: The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. :eye-slash:",
+    "firstNightReminder": ":eye: O Fortune Teller aponta para dois jogadores. Dê o sinal de cabeça (acene com a cabeça sim, sacuda não) para saber se um desses jogadores é o Demônio. :eye-slash:",
     "otherNight": 39,
-    "otherNightReminder": ":eye: The Fortune Teller points to two players. Show the head signal (nod “yes”, shake “no”) for whether one of those players is the Demon. :eye-slash:",
+    "otherNightReminder": ":eye: O Fortune Teller aponta para dois jogadores. Mostre o sinal de cabeça (acene com a cabeça “sim”, sacuda “não”) para indicar se um desses jogadores é o Demônio. :eye-slash:",
     "reminders": [
       "Falso"
     ],
@@ -109,7 +109,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 40,
-    "otherNightReminder": ":question-circle: If a player was executed today: :eye: Show that player’s character token. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se um jogador foi executado hoje:: olho: Mostra o token de personagem desse jogador. :eye-slash:",
     "reminders": [
       "Executado"
     ],
@@ -124,7 +124,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 10,
-    "otherNightReminder": "The previously protected player is no longer protected. :plus-circle: :eye: The Monk points to a player not themself. :eye-slash: Mark that player “Protected”. :plus-circle:",
+    "otherNightReminder": "O player protegido anteriormente não está mais protegido. :plus-circle: :eye: O Monge aponta para um jogador e não para ele mesmo. :eye-slash: Marque esse jogador como “Protegido”. :plus-circle:",
     "reminders": [
       "Protegido"
     ],
@@ -139,7 +139,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 37,
-    "otherNightReminder": ":question-circle: If the Ravenkeeper died tonight: :eye: The Ravenkeeper points to a player. Show that player’s character token. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se o Mestre dos Corvos morreu esta noite: :eye: O Mestre dos Jogos aponta para um jogador. Mostre o token de personagem desse jogador. :eye-slash:",
     "reminders": [],
     "setup": false,
     "ability": "Se você morrer durante a Noite, acordará para escolher um jogador: Você descobre o personagem dele."
@@ -206,9 +206,9 @@
     "edition": "tb",
     "team": "outsider",
     "firstNight": 25,
-    "firstNightReminder": ":eye: The Butler points to a player. :eye-slash: Mark that player as “Master”. :plus-circle:",
+    "firstNightReminder": ":eye: O mordomo aponta para um jogador. :eye-slash: Marque esse jogador como “Mestre”. :plus-circle:",
     "otherNight": 50,
-    "otherNightReminder": ":eye: The Butler points to a player. :eye-slash: Mark that player as “Master”. :plus-circle:",
+    "otherNightReminder": ":eye: O mordomo aponta para um jogador. :eye-slash: Marque esse jogador como “Mestre”. :plus-circle:",
     "reminders": [
       "Mestre"
     ],
@@ -276,9 +276,9 @@
     "edition": "tb",
     "team": "minion",
     "firstNight": 9,
-    "firstNightReminder": ":eye: The Poisoner points to a player. :eye-slash: That player is poisoned. :plus-circle:",
+    "firstNightReminder": ":eye: O Envenenador aponta para um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
     "otherNight": 6,
-    "otherNightReminder": "The previously poisoned player is no longer poisoned. :plus-circle: :eye: The Poisoner points to a player. :eye-slash: That player is poisoned. :plus-circle:",
+    "otherNightReminder": "O jogador envenenado anteriormente não está mais envenenado. :plus-circle: :eye: O Poisoner aponta para um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
     "reminders": [
       "Envenenado"
     ],
@@ -291,9 +291,9 @@
     "edition": "tb",
     "team": "minion",
     "firstNight": 33,
-    "firstNightReminder": ":eye: Show the Grimoire to the Spy for as long as they need. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre o Griomorio ao Espião pelo tempo que ele precisar. :eye-slash:",
     "otherNight": 51,
-    "otherNightReminder": ":eye: Show the Grimoire to the Spy for as long as they need. :eye-slash:",
+    "otherNightReminder": ":eye: Mostre o Griomorio ao Espião pelo tempo que ele precisar. :eye-slash:",
     "reminders": [],
     "setup": false,
     "ability": "Toda Noite, você vê o Grimório (todas as informações ocultas). Você pode ser lido por habilidades como se fosse do Bem, Cidadão ou Forasteiro (MESMO ESTANDO MORTO)."
@@ -306,7 +306,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 15,
-    "otherNightReminder": ":question-circle: If the Scarlet Woman became the Demon today: :eye: Show the “You are” card, then the demon token. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se a Promíscua se tornou o Demônio hoje: :eye: Mostre a carta "Você é" e, em seguida, a ficha do demônio. :eye-slash:",
     "reminders": [
       "Demônio"
     ],
@@ -321,7 +321,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 18,
-    "otherNightReminder": ":eye: The Imp points to a player. :eye-slash: That player dies. :plus-circle: If the Imp chose themself: • Replace the character of 1 alive minion with a spare Imp token. :plus-circle: • :eye: Wake the new Imp. Show the “You are” card, then the Imp token. :eye-slash:",
+    "otherNightReminder": ":eye: O Capeta aponta para um jogador. :eye-slash: Ele morre. :plus-circle: Se o Capeta se escolheu: • Substitua o personagem de 1 lacaio vivo por uma ficha de Capeta sobressalente. :plus-circle: • :eye: Acorde o novo Imp. Mostre o cartão "Você é" e, em seguida, o token de Capeta. :eye-slash:",
     "reminders": [
       "Morto"
     ],
@@ -332,9 +332,9 @@
     "id": "grandmother",
     "edition": "bmr",
     "firstNight": 26,
-    "firstNightReminder": "Show the marked character token. Point to the marked player.",
+    "firstNightReminder": "Mostra o token de caractere marcado. Aponte para o jogador marcado.",
     "otherNight": 31,
-    "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: • The Grandmother dies.",
+    "otherNightReminder": "Se o neto da avó foi morto pelo demônio esta noite: • A avó morre.",
     "reminders": [
       "Neto"
     ],
@@ -347,9 +347,9 @@
     "id": "sailor",
     "edition": "bmr",
     "firstNight": 4,
-    "firstNightReminder": "The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "firstNightReminder": "he Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
     "otherNight": 2,
-    "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "otherNightReminder": "O jogador anteriormente bêbado não está mais bêbado. O marinheiro aponta para um jogador vivo. O marinheiro ou o jogador escolhido está bêbado.",
     "reminders": [
       "Bêbado"
     ],
@@ -362,9 +362,9 @@
     "id": "chambermaid",
     "edition": "bmr",
     "firstNight": 35,
-    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "firstNightReminder": "A camareira aponta para dois jogadores. Mostra o sinal numérico (0, 1, 2, ...) para quantos desses jogadores acordaram hoje à noite por sua habilidade.",
     "otherNight": 53,
-    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2) for how many of those players wake tonight for their ability.",
+    "otherNightReminder": "A camareira aponta para dois jogadores. Mostra o sinal numérico (0, 1, 2, ...) para quantos desses jogadores acordaram hoje à noite por sua habilidade.",
     "reminders": [],
     "setup": false,
     "name": "Camareira",
@@ -377,7 +377,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 17,
-    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: • Wake the Demon. Show the Exorcist token. Point to the Exorcist. • The Demon does not act tonight.",
+    "otherNightReminder": "O Exorcista aponta para um jogador, diferente da noite anterior. Se esse jogador for o Demônio: • Desperte o Demônio. Mostre o token do Exorcista. Aponte para o Exorcista. • O Demônio não atua esta noite.",
     "reminders": [
       "Escolhido"
     ],
@@ -392,7 +392,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 3,
-    "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
+    "otherNightReminder": "Os jogadores previamente protegidos e bêbados perdem esses marcadores. O estalajadeiro aponta para dois jogadores. Esses jogadores estão protegidos. Um está bêbado.",
     "reminders": [
       "Protegido",
       "Bêbado"
@@ -408,7 +408,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 8,
-    "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
+    "otherNightReminder": "O Apostador aponta para um jogador e um personagem em sua ficha. Se incorreto, o jogador morre.",
     "reminders": [
       "Morto"
     ],
@@ -423,7 +423,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 30,
-    "otherNightReminder": "If the Gossip’s public statement was true: • Choose a player not protected from dying tonight. That player dies.",
+    "otherNightReminder": "Se a declaração pública do Gossip for verdadeira: • Escolha um jogador que não esteja protegido contra a morte esta noite. Esse jogador morre.",
     "reminders": [
       "Morto"
     ],
@@ -436,9 +436,9 @@
     "id": "courtier",
     "edition": "bmr",
     "firstNight": 11,
-    "firstNightReminder": "The Courier either shows a “no” head signal, or points to a character on the sheet. If the Courtier used their ability : If that character is in play, that player is drunk.",
+    "firstNightReminder": "O Cortesão mostra um sinal de “não” com a cabeça ou aponta para um personagem na folha. Se o cortesão usou sua habilidade: Se aquele personagem estiver em jogo, o jogador está bêbado.",
     "otherNight": 7,
-    "otherNightReminder": "Reduce the remaining number of days the marked player is poisoned. If the Courtier has not yet used their ability: • The Courier either shows a “no” head signal, or points to a character on the sheet. • If the Courtier used their ability : If that character is in play, that player is drunk.",
+    "otherNightReminder": "Reduza o número restante de dias em que o jogador marcado está envenenado. Se o Courier ainda não usou sua habilidade: • O Courier mostra um sinal de “não” com a cabeça ou aponta para um personagem na ficha. • Se o cortesão usou sua habilidade: Se aquele personagem está em jogo, o jogador está bêbado.",
     "reminders": [
       "Bêbado 1",
       "Bêbado 2",
@@ -456,7 +456,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 35,
-    "otherNightReminder": "If the Professor has not used their ability: • The Professor either shows the “no” head signal, or points to a player. • If that player is a Townsfolk, they are now alive.",
+    "otherNightReminder": "Se o professor não usou sua habilidade: • O professor mostra o sinal de "não" para a cabeça ou aponta para um jogador. • Se esse jogador for um povo da cidade, eles agora estão vivos.",
     "reminders": [
       "Vivo",
       "Usado"
@@ -472,9 +472,9 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "Remove the “Everyone drunk” marker. If a Minion died today: All players but the Minstrel are drunk. Place the “Everyone drunk” marker.",
+    "otherNightReminder": "Remova o marcador “Todos bêbados”. Se um Lacaio morreu hoje: Todos os jogadores, exceto o Minstrel, estão bêbados. Coloque o marcador “Todos bêbados”.",
     "reminders": [
-      "Todo mundo Bêbado"
+      "Todos Bêbados"
     ],
     "setup": false,
     "name": "Bardo",
@@ -545,7 +545,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 36,
-    "otherNightReminder": "If the Moonchild used their ability to target a player today: • If that player is good, they die.",
+    "otherNightReminder": "Se o Moonchild usou sua habilidade para atingir um jogador hoje: • Se aquele jogador for bom, ele morre.",
     "reminders": [
       "Morto"
     ],
@@ -558,9 +558,9 @@
     "id": "goon",
     "edition": "bmr",
     "firstNight": 100,
-    "firstNightReminder": "If a player used their character ability to choose the Goon: • The Goon becomes that player’s alignment. • Show the “You are” card. Show the hand signal (thumb-up “good”, thumb-down “evil”) for the Goon’s current alignment.",
+    "firstNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Goon: • O Goon se torna a tendência desse jogador. • Mostre o cartão “Você é”. Mostre o sinal de mão (polegar para cima "bom", polegar para baixo "mal") para o alinhamento atual do Capanga.",
     "otherNight": 100,
-    "otherNightReminder": "If a player used their character ability to choose the Goon: • The Goon becomes that player’s alignment. • Show the “You are” card, then the hand signal (thumb-up “good”, thumb-down “evil”) for the Goon’s current alignment.",
+    "otherNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Goon: • O Goon se torna a tendência desse jogador. • Mostre o cartão “Você é”. Mostre o sinal de mão (polegar para cima "bom", polegar para baixo "mal") para o alinhamento atual do Capanga.",
     "reminders": [
       "Bêbado"
     ],
@@ -573,9 +573,9 @@
     "id": "lunatic",
     "edition": "bmr",
     "firstNight": 2,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary “Minion“, players equal to the number of Minions in play. Show 3 character tokens of arbitrary Good characters. If the token received by the Lunatic is a Demon that would wake tonight: • Allow the Lunatic to do the Demon actions. Place their “attack” markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. • If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic “attack” markers.",
+    "firstNightReminder": "Se houver 7 ou mais jogadores: Mostre ao Lunático um número arbitrário de "Minions", jogadores iguais ao número de Minions em jogo. Mostrar 3 fichas de caracteres de caracteres bons arbitrários. Se o token recebido pelo Lunático for um Demônio que acordaria hoje à noite: • Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de “ataque”. Acorde o demônio. Mostre o token de personagem real do Demônio. Mostre a eles o jogador Lunatic. • Se o Lunatic atacou jogadores: Mostre o demônio real de cada jogador marcado. Remova quaisquer marcadores de "ataque" Lunatic.",
     "otherNight": 16,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their “attack” markers. If the Lunatic selected players: Wake the Demon. Show the “attack” marker, then point to each marked player. Remove any Lunatic “attack” markers.",
+    "otherNightReminder": "Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de “ataque”. Se o Lunatic selecionou jogadores: Desperte o Demônio. Mostre o marcador de “ataque” e aponte para cada jogador marcado. Remova quaisquer marcadores de “ataque” Lunatic.",
     "reminders": [
       "Ataque 1",
       "Ataque 2",
@@ -591,9 +591,9 @@
     "id": "godfather",
     "edition": "bmr",
     "firstNight": 13,
-    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "firstNightReminder": "Mostre cada um dos tokens de Forasteiro em jogo.",
     "otherNight": 29,
-    "otherNightReminder": "If an Outsider died today: • The Godfather points to a player. That player dies.",
+    "otherNightReminder": "Se um Forasteiro morreu hoje: • O Padrinho aponta para um jogador. Esse jogador morre.",
     "reminders": [
       "Morreu Hoje",
       "Morto"
@@ -607,9 +607,9 @@
     "id": "devilsadvocate",
     "edition": "bmr",
     "firstNight": 14,
-    "firstNightReminder": "The Devil’s Advocate points to a living player. That player survives execution tomorrow.",
+    "firstNightReminder": "O Advogado do Diabo aponta para um jogador vivo. Esse jogador sobrevive à execução amanhã.",
     "otherNight": 11,
-    "otherNightReminder": "The Devil’s Advocate points to a living player, different from the previous night. That player survives execution tomorrow.",
+    "otherNightReminder": "The Devil’s Advocate aponta para um jogador vivo, diferente da noite anterior. Esse jogador sobrevive à execução amanhã.",
     "reminders": [
       "Sobrevive a execução"
     ],
@@ -624,7 +624,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 28,
-    "otherNightReminder": "If the Assassin has not yet used their ability: • The Assassin either shows the “no” head signal, or points to a player. That player dies.",
+    "otherNightReminder": "Se o Assassino ainda não usou sua habilidade: • O Assassino mostra o sinal de “não” na cabeça ou aponta para um jogador. Esse jogador morre.",
     "reminders": [
       "Morto",
       "Usado"
@@ -653,7 +653,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 22,
-    "otherNightReminder": "If the Po chose no-one the previous night : The Po points to three players . Otherwise: The Po either shows the “no” head signal , or points to a player . The marked players (if any) die.",
+    "otherNightReminder": "Se o Po não escolheu ninguém na noite anterior: O Po aponta para três jogadores. Caso contrário: O Po mostra o sinal de cabeça “não” ou aponta para um jogador. Os jogadores marcados (se houver) morrem.",
     "reminders": [
       "Morte 1",
       "Morte 2",
@@ -671,7 +671,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 19,
-    "otherNightReminder": "If no-one died during the day: • The Zombuul points to a player. That player dies.",
+    "otherNightReminder": "Se ninguém morreu durante o dia: • O Zombuul aponta para um jogador. Aquele jogador morre.",
     "reminders": [
       "Sem morte hoje",
       "Morto"
@@ -685,9 +685,9 @@
     "id": "pukka",
     "edition": "bmr",
     "firstNight": 18,
-    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "firstNightReminder": "O Pukka aponta para um jogador. Esse jogador está envenenado.",
     "otherNight": 20,
-    "otherNightReminder": "The poisoned player dies. The Pukka points to a player. That player is poisoned.",
+    "otherNightReminder": "O jogador envenenado morre. O Pukka aponta para um jogador. Esse jogador está envenenado.",
     "reminders": [
       "Envenenado",
       "Morto"
@@ -703,7 +703,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 21,
-    "otherNightReminder": "One player that the Shabaloth chose the previous night might come alive. The Shabaloth points to two players. Those players die.",
+    "otherNightReminder": "Um jogador que o Shabaloth escolheu na noite anterior pode ganhar vida. O Shabaloth aponta para dois jogadores. Esses jogadores morrem.",
     "reminders": [
       "Morto 1",
       "Morto 2",
@@ -718,7 +718,7 @@
     "id": "clockmaker",
     "edition": "snv",
     "firstNight": 27,
-    "firstNightReminder": "Show the hand signal for the number (1, 2, 3, etc.) of places from Demon to closest Minion.",
+    "firstNightReminder": "Mostre o sinal de mão para o número (1, 2, 3, etc.) de lugares do Demônio ao Lacaio mais próximo.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -731,9 +731,9 @@
     "id": "dreamer",
     "edition": "snv",
     "firstNight": 28,
-    "firstNightReminder": "The Dreamer points to a player. Show two character tokens, one of which is that player’s character, the other of which is of opposite alignment to that character.",
+    "firstNightReminder": "O Dreamer aponta para um jogador. Mostre dois tokens de personagem, um dos quais é o personagem do jogador, o outro dos quais é de alinhamento oposto ao personagem.",
     "otherNight": 41,
-    "otherNightReminder": "The Dreamer points to a player. Show 1 good and 1 evil character token; one of these is correct.",
+    "otherNightReminder": "O Dreamer aponta para um jogador. Mostrar 1 ficha de caráter bom e 1 ficha de caráter mau; um deles está correto.",
     "reminders": [],
     "setup": false,
     "name": "Sonhador",
@@ -744,9 +744,9 @@
     "id": "snakecharmer",
     "edition": "snv",
     "firstNight": 12,
-    "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: • Swap the Snake Charmer and Demon character tokens. • Wake the new Demon. Show the “You are” card, then the thumb-down “evil” sign. Show the “You are” card, then the Demon token. • The new Snake Charmer is poisoned . Wake the new Snake Charmer. Show the “You are” card, then the thumb-up “good” sign. Show the “You are” card, then the Snake Charmer token.",
+    "firstNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for o Demônio: • Troque as fichas de personagem Encantador de Serpentes e Demônio. • Desperte o novo Demônio. Mostre o cartão “Você é” e, em seguida, o sinal de “mal” com o polegar para baixo. Mostre a carta “Você é” e, em seguida, a ficha de Demônio. • O novo Encantador de Serpentes está envenenado. Acorde o novo Encantador de Serpentes. Mostre o cartão "Você é" e, em seguida, o sinal de "bom" com o polegar para cima. Mostre a carta "Você é" e, em seguida, a ficha do Encantador de Serpentes.",
     "otherNight": 9,
-    "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: • Swap the Snake Charmer and Demon character tokens. Wake the new Demon. Show the “You are” card, then the thumb-down “evil” sign. Show the “You are” card, then the Demon token. • The new Snake Charmer is poisoned . Wake the new Snake Charmer. Show the “You are” card, then the thumb-up “good” sign. Show the “You are” card, then the Snake Charmer token.",
+    "otherNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for o Demônio: • Troque as fichas de personagem Encantador de Serpentes e Demônio. • Desperte o novo Demônio. Mostre o cartão “Você é” e, em seguida, o sinal de “mal” com o polegar para baixo. Mostre a carta “Você é” e, em seguida, a ficha de Demônio. • O novo Encantador de Serpentes está envenenado. Acorde o novo Encantador de Serpentes. Mostre o cartão "Você é" e, em seguida, o sinal de "bom" com o polegar para cima. Mostre a carta "Você é" e, em seguida, a ficha do Encantador de Serpentes.",
     "reminders": [
       "Envenenado"
     ],
