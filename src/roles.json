@@ -99,7 +99,7 @@
       "Falso"
     ],
     "setup": false,
-    "ability": "Toda Noite, escolha 2 jogadores: Você descobre se o Demônio é um deles. No entanto,  existe um jogador do bem que é sempre detectado incorretamente."
+    "ability": "Toda Noite, escolha 2 jogadores: Você descobre se o Demônio é um deles. No entanto, existe um jogador do bem que é sempre detectado incorretamente."
   },
   {
     "id": "undertaker",
@@ -109,7 +109,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 40,
-    "otherNightReminder": ":question-circle: Se um jogador foi executado hoje:: olho: Mostra o token de personagem desse jogador. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se um jogador foi executado hoje: :eye: Mostra o token de personagem desse jogador. :eye-slash:",
     "reminders": [
       "Executado"
     ],
@@ -306,7 +306,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 15,
-    "otherNightReminder": ":question-circle: Se a Promíscua se tornou o Demônio hoje: :eye: Mostre a carta "Você é" e, em seguida, a ficha do demônio. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se a Promíscua se tornou o Demônio hoje: :eye: Mostre a carta 'Você é' e, em seguida, a ficha do demônio. :eye-slash:",
     "reminders": [
       "Demônio"
     ],
@@ -558,9 +558,9 @@
     "id": "goon",
     "edition": "bmr",
     "firstNight": 100,
-    "firstNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Goon: • O Goon se torna a tendência desse jogador. • Mostre o cartão “Você é”. Mostre o sinal de mão (polegar para cima "bom", polegar para baixo "mal") para o alinhamento atual do Capanga.",
+    "firstNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Goon: • O Goon se torna a tendência desse jogador. • Mostre o cartão 'Você é'. Mostre o sinal de mão (polegar para cima 'bom', polegar para baixo 'mal') para o alinhamento atual do Capanga.",
     "otherNight": 100,
-    "otherNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Goon: • O Goon se torna a tendência desse jogador. • Mostre o cartão “Você é”. Mostre o sinal de mão (polegar para cima "bom", polegar para baixo "mal") para o alinhamento atual do Capanga.",
+    "otherNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Goon: • O Goon se torna a tendência desse jogador. • Mostre o cartão 'Você é'. Mostre o sinal de mão (polegar para cima 'bom', polegar para baixo 'mal') para o alinhamento atual do Capanga.",
     "reminders": [
       "Bêbado"
     ],
@@ -573,9 +573,9 @@
     "id": "lunatic",
     "edition": "bmr",
     "firstNight": 2,
-    "firstNightReminder": "Se houver 7 ou mais jogadores: Mostre ao Lunático um número arbitrário de "Minions", jogadores iguais ao número de Minions em jogo. Mostrar 3 fichas de caracteres de caracteres bons arbitrários. Se o token recebido pelo Lunático for um Demônio que acordaria hoje à noite: • Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de “ataque”. Acorde o demônio. Mostre o token de personagem real do Demônio. Mostre a eles o jogador Lunatic. • Se o Lunatic atacou jogadores: Mostre o demônio real de cada jogador marcado. Remova quaisquer marcadores de "ataque" Lunatic.",
+    "firstNightReminder": "Se houver 7 ou mais jogadores: Mostre ao Lunático um número arbitrário de 'Minions', jogadores iguais ao número de Minions em jogo. Mostrar 3 fichas de caracteres de caracteres bons arbitrários. Se o token recebido pelo Lunático for um Demônio que acordaria hoje à noite: • Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de “ataque”. Acorde o demônio. Mostre o token de personagem real do Demônio. Mostre a eles o jogador Lunatic. • Se o Lunatic atacou jogadores: Mostre o demônio real de cada jogador marcado. Remova quaisquer marcadores de "ataque" Lunatic.",
     "otherNight": 16,
-    "otherNightReminder": "Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de “ataque”. Se o Lunatic selecionou jogadores: Desperte o Demônio. Mostre o marcador de “ataque” e aponte para cada jogador marcado. Remova quaisquer marcadores de “ataque” Lunatic.",
+    "otherNightReminder": "Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de 'ataque'. Se o Lunatic selecionou jogadores: Desperte o Demônio. Mostre o marcador de “ataque” e aponte para cada jogador marcado. Remova quaisquer marcadores de 'ataque' Lunatic.",
     "reminders": [
       "Ataque 1",
       "Ataque 2",
@@ -653,7 +653,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 22,
-    "otherNightReminder": "Se o Po não escolheu ninguém na noite anterior: O Po aponta para três jogadores. Caso contrário: O Po mostra o sinal de cabeça “não” ou aponta para um jogador. Os jogadores marcados (se houver) morrem.",
+    "otherNightReminder": "Se o Po não escolheu ninguém na noite anterior: O Po aponta para três jogadores. Caso contrário: O Po mostra o sinal de cabeça 'não' ou aponta para um jogador. Os jogadores marcados (se houver) morrem.",
     "reminders": [
       "Morte 1",
       "Morte 2",
@@ -744,9 +744,9 @@
     "id": "snakecharmer",
     "edition": "snv",
     "firstNight": 12,
-    "firstNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for o Demônio: • Troque as fichas de personagem Encantador de Serpentes e Demônio. • Desperte o novo Demônio. Mostre o cartão “Você é” e, em seguida, o sinal de “mal” com o polegar para baixo. Mostre a carta “Você é” e, em seguida, a ficha de Demônio. • O novo Encantador de Serpentes está envenenado. Acorde o novo Encantador de Serpentes. Mostre o cartão "Você é" e, em seguida, o sinal de "bom" com o polegar para cima. Mostre a carta "Você é" e, em seguida, a ficha do Encantador de Serpentes.",
+    "firstNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for o Demônio: • Troque as fichas de personagem Encantador de Serpentes e Demônio. • Desperte o novo Demônio. Mostre o cartão 'Você é' e, em seguida, o sinal de “mal” com o polegar para baixo. Mostre a carta 'Você é' e, em seguida, a ficha de Demônio. • O novo Encantador de Serpentes está envenenado. Acorde o novo Encantador de Serpentes. Mostre o cartão "Você é" e, em seguida, o sinal de "bom" com o polegar para cima. Mostre a carta "Você é" e, em seguida, a ficha do Encantador de Serpentes.",
     "otherNight": 9,
-    "otherNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for o Demônio: • Troque as fichas de personagem Encantador de Serpentes e Demônio. • Desperte o novo Demônio. Mostre o cartão “Você é” e, em seguida, o sinal de “mal” com o polegar para baixo. Mostre a carta “Você é” e, em seguida, a ficha de Demônio. • O novo Encantador de Serpentes está envenenado. Acorde o novo Encantador de Serpentes. Mostre o cartão "Você é" e, em seguida, o sinal de "bom" com o polegar para cima. Mostre a carta "Você é" e, em seguida, a ficha do Encantador de Serpentes.",
+    "otherNightReminder": "O Encantador de Serpentes aponta para um jogador. Se esse jogador for o Demônio: • Troque as fichas de personagem Encantador de Serpentes e Demônio. • Desperte o novo Demônio. Mostre o cartão 'Você é' e, em seguida, o sinal de “mal” com o polegar para baixo. Mostre a carta 'Você é' e, em seguida, a ficha de Demônio. • O novo Encantador de Serpentes está envenenado. Acorde o novo Encantador de Serpentes. Mostre o cartão "Você é" e, em seguida, o sinal de "bom" com o polegar para cima. Mostre a carta "Você é" e, em seguida, a ficha do Encantador de Serpentes.",
     "reminders": [
       "Envenenado"
     ],
