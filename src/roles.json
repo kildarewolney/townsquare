@@ -23,7 +23,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 16,
-    "otherNightReminder": "O Lycanthrope escolhe um jogador vivo: se for bom, eles morre e ninguém mais pode morrer esta noite.",
+    "otherNightReminder": "O Licantropo escolhe um jogador vivo: se for bom, eles morre e ninguém mais pode morrer esta noite.",
     "reminders": ["Dead"],
     "setup": false,
     "ability": "Cada Noite*, escolha um jogador vivo: Se ele for do Bem, ele morre, mas só ele poderá morrer essa noite."
@@ -206,9 +206,9 @@
     "edition": "tb",
     "team": "outsider",
     "firstNight": 25,
-    "firstNightReminder": ":eye: The Butler points to a player. :eye-slash: Mark that player as “Master”. :plus-circle:",
+    "firstNightReminder": ":eye: O Mordomo aponta para um jogador. :eye-slash: Marque esse jogador como 'Mestre'. :plus-circle:",
     "otherNight": 50,
-    "otherNightReminder": ":eye: The Butler points to a player. :eye-slash: Mark that player as “Master”. :plus-circle:",
+    "otherNightReminder": ":eye: O Mordomo aponta para um jogador. :eye-slash: Marque esse jogador como 'Mestre'. :plus-circle:",
     "reminders": [
       "Mestre"
     ],
@@ -276,9 +276,9 @@
     "edition": "tb",
     "team": "minion",
     "firstNight": 9,
-    "firstNightReminder": ":eye: The Poisoner points to a player. :eye-slash: That player is poisoned. :plus-circle:",
+    "firstNightReminder": ":eye: O Envenenador escolhe um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
     "otherNight": 6,
-    "otherNightReminder": "The previously poisoned player is no longer poisoned. :plus-circle: :eye: The Poisoner points to a player. :eye-slash: That player is poisoned. :plus-circle:",
+    "otherNightReminder": "O jogador envenenado anteriormente não está mais envenenado. :plus-circle: :eye: O Envenenador escolhe um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
     "reminders": [
       "Envenenado"
     ],
@@ -291,9 +291,9 @@
     "edition": "tb",
     "team": "minion",
     "firstNight": 33,
-    "firstNightReminder": ":eye: Show the Grimoire to the Spy for as long as they need. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre o Grimório ao Espião pelo tempo que eles precisarem. :eye-slash:",
     "otherNight": 51,
-    "otherNightReminder": ":eye: Show the Grimoire to the Spy for as long as they need. :eye-slash:",
+    "otherNightReminder": ":eye: Mostre o Grimório ao Espião pelo tempo que eles precisarem. :eye-slash:",
     "reminders": [],
     "setup": false,
     "ability": "Toda Noite, você vê o Grimório (todas as informações ocultas). Você pode ser lido por habilidades como se fosse do Bem, Cidadão ou Forasteiro (MESMO ESTANDO MORTO)."
@@ -306,7 +306,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 15,
-    "otherNightReminder": ":question-circle: If the Scarlet Woman became the Demon today: :eye: Show the “You are” card, then the demon token. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se a Promíscua se tornasse o Demônio hoje: :eye: Informe-a que ela é o demônio. :eye-slash:",
     "reminders": [
       "Demônio"
     ],
@@ -321,7 +321,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 18,
-    "otherNightReminder": ":eye: The Imp points to a player. :eye-slash: That player dies. :plus-circle: If the Imp chose themself: • Replace the character of 1 alive minion with a spare Imp token. :plus-circle: • :eye: Wake the new Imp. Show the “You are” card, then the Imp token. :eye-slash:",
+    "otherNightReminder": ":eye: O Capeta escolhe um jogador. :eye-slash: Esse jogador morre. :plus-circle: Se o Capeta se escolher: • Substitua o personagem de 1 lacaio vivo pelo Capeta. :plus-circle: • :eye: Acorde o novo Capeta. Informe-o que ele é o Capeta. :eye-slash:",
     "reminders": [
       "Morto"
     ],
