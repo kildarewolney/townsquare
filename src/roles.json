@@ -124,7 +124,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 10,
-    "otherNightReminder": "The previously protected player is no longer protected. :plus-circle: :eye: The Monk points to a player not themself. :eye-slash: Mark that player “Protected”. :plus-circle:",
+    "otherNightReminder": "O Jogador protegido anteriormente não está mais protegido. :plus-circle: :eye: O Monge aponta para um jogador, não pode escolher ele mesmo. :eye-slash: Marque esse jogador com 'Protegido'. :plus-circle:",
     "reminders": [
       "Protegido"
     ],
@@ -139,7 +139,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 37,
-    "otherNightReminder": ":question-circle: If the Ravenkeeper died tonight: :eye: The Ravenkeeper points to a player. Show that player’s character token. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se o Mestre dos Corvos morreu esta noite: :eye: O Mestre dos Corvos escolhe um jogador. Mostre o token de personagem desse jogador. :eye-slash:",
     "reminders": [],
     "setup": false,
     "ability": "Se você morrer durante a Noite, acordará para escolher um jogador: Você descobre o personagem dele."
