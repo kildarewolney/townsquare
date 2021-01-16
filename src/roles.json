@@ -5,7 +5,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 19,
-    "firstNightReminder": ":eye: Mostre um Token de Personagem de Cidadão. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
+    "firstNightReminder": ":eye: Informe um Personagem Cidadão. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -34,7 +34,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 20,
-    "firstNightReminder": ":eye: Mostre um Token de Personagem de Forasteiro. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
+    "firstNightReminder": ":eye: Informe um Personagem Forasteiro. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -50,7 +50,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 21,
-    "firstNightReminder": ":eye: Mostre um Token de Personagem de Lacaio. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
+    "firstNightReminder": ":eye: Informe um Personagem Lacaio. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -79,9 +79,9 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 23,
-    "firstNightReminder": ":eye: Mostra o valor (0, 1, 2, ...) para o número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
+    "firstNightReminder": ":eye: Informe o valor (0, 1, 2, ...) para o número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
     "otherNight": 38,
-    "otherNightReminder": ":eye: Mostra o valor (0, 1, 2, ...) para o número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
+    "otherNightReminder": ":eye: Informe o valor (0, 1, 2, ...) para o número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
     "reminders": [],
     "setup": false,
     "ability": "Toda Noite, você descobre quantos jogadores são do mal, dentre os seus 2 vizinhos vivos mais próximos."
