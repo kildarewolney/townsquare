@@ -300,7 +300,7 @@
     "otherNightReminder": "O Ladrão escolhe um jogador. Coloque o marcador de 'voto negativo' do Ladrão ao lado do Token de personagem do jogador escolhido.",
     "reminders": ["Voto Negativo"],
     "setup": false,
-    "ability": "Cada noite, escolha um jogador (você não pode escolher): O voto do escolhido conta negativamente amanhã."
+    "ability": "Cada noite, escolha um jogador (você não pode escolher): O voto do escolhido pode contar negativamente amanhã."
   },
   {
     "id": "bureaucrat",
@@ -360,7 +360,7 @@
     "edition": "bmr",
     "team": "cidadão",
     "firstNight": 26,
-    "firstNightReminder": "Informe a Vovó qual jogador é o seu Neto.",
+    "firstNightReminder": "Informe a Vovó qual jogador é o seu Neto. Se a vovó está bêbada ou envenenada na primeira noite, ela recebe informações (potencialmente) falsas sobre a identidade e / ou personagem de seu neto, mas eles ainda têm um neto (porque a colocação do neto ocorre durante a configuração do jogo). Se o dito neto morrer nas mãos do Demônio, a Avó também morrerá, como esperado.",
     "otherNight": 39,
     "otherNightReminder": "Se o Neto da Vovó foi morto pelo Demônio esta noite: •  A Vovó morre.",
     "reminders": ["Neto"],
@@ -441,7 +441,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 36,
-    "otherNightReminder": "Se a afirmação pública da fofoqueira for verdadeira: • Escolha um jogador que não esteja protegido contra a morte esta noite. Aquele jogador morre.",
+    "otherNightReminder": "Se a afirmação pública da fofoqueira for verdadeira: • Escolha um jogador que não esteja protegido contra a morte esta noite. Esse jogador morre.",
     "reminders": ["Morto"],
     "setup": false,
     "ability": "Todo dia, você pode fazer UMA afirmação publicamente: Se for verdade, alguém morrerá durante a Noite."
@@ -454,7 +454,7 @@
     "firstNight": 11,
     "firstNightReminder": "O Cortesão pode recusar usar a sua habilidade ou escolher um personagem. Caso o cortesão use sua habilidade: Se esse personagem está em jogo, esse jogador está bêbado.",
     "otherNight": 7,
-    "otherNightReminder": "Reduza o número restante de dias em que o jogador escolhido está bêbado. Se o Courier ainda não usou sua habilidade: • O Cortesão pode recusar usar a sua habilidade ou escolher um personagem. Caso o cortesão use sua habilidade: Se esse personagem está em jogo, esse jogador está bêbado. Caso o Cortesão fique bêbado/envenenado enquanto sua habilidade estiver ativa, o personagem escolhido anteriormente fica temporariamente sóbrio e o contador de dias é reduzido.",
+    "otherNightReminder": "Reduza o número restante de dias em que o jogador escolhido está bêbado. Se o Courier ainda não usou sua habilidade: • O Cortesão pode recusar usar a sua habilidade ou escolher um personagem. Caso o cortesão use sua habilidade: Se esse personagem está em jogo, esse jogador está bêbado. Caso o Cortesão fique bêbado ou envenenado, seu “contador” continua funcionando e a embriaguez que ele está causando é temporariamente desativada.",
     "reminders": ["Bêbado 3",
       "Bêbado 2",
       "Bêbado 1",
@@ -617,7 +617,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 30,
-    "otherNightReminder": "Se o Assassino ainda não usou sua habilidade: • O Assassino pode recusar usar a habilidade ou aponta para um jogador. Aquele jogador morre mesmo que ele não possa.",
+    "otherNightReminder": "Se o Assassino ainda não usou sua habilidade: • O Assassino pode recusar usar a habilidade ou aponta para um jogador. Esse jogador morre mesmo que ele não possa.",
     "reminders": ["Morto",
       "Usado"],
     "setup": false,
@@ -644,7 +644,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 20,
-    "otherNightReminder": "Se ninguém morreu durante o dia: • O Zombuul escolhe um jogador. Aquele jogador morre.",
+    "otherNightReminder": "Se ninguém morreu durante o dia: • O Zombuul escolhe um jogador. Esse jogador morre.",
     "reminders": ["Morreu hoje",
       "Morto"],
     "setup": false,
@@ -656,9 +656,9 @@
     "edition": "bmr",
     "team": "demônio",
     "firstNight": 18,
-    "firstNightReminder": "A pukka escolhe um jogador, Esse jogador está envenenado e morrerá na próxima noite logo antes da Pukka Acordar.",
+    "firstNightReminder": "A pukka escolhe um jogador, Esse jogador está envenenado e morrerá imediatamente antes da Pukka acordar na próxima noite, mesmo que não que ela não acorde.",
     "otherNight": 21,
-    "otherNightReminder": "Jogadores Envenenados morrem, mesmo que a Pukka esteja atualmente envenenada/bêbada. Pukka Escolhe um jogador, esse jogador está envenenado e morrerá na próxima noite logo antes da Pukka Acordar.",
+    "otherNightReminder": "Jogadores Envenenados morrem, mesmo que a Pukka esteja atualmente envenenada/bêbada. Pukka Escolhe um jogador, esse jogador está envenenado e morrerá imediatamente antes da Pukka acordar na próxima noite, mesmo que não que ela não acorde.",
     "reminders": ["Envenenado",
       "Morto"],
     "setup": false,
@@ -686,7 +686,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 24,
-    "otherNightReminder": "Se o Po não escolheu ninguém na noite anterior: O Po escolhe três jogadores. Caso contrário: O Po pode recusar usar sua habilidade ou escolher um jogador. Os jogadores escolhidos (se houver) morrem na ordem escolhida.",
+    "otherNightReminder": "Se na ultima noite o Po escolheu não matar um jogador: O Po escolhe três jogadores. Caso contrário: O Po pode recusar usar sua habilidade ou escolher um jogador. Os jogadores escolhidos (se houver) morrem na ordem escolhida.",
     "reminders": ["Morto",
       "3 Ataques"],
     "setup": false,
@@ -889,7 +889,7 @@
     "reminders": ["Bêbado",
       "Não é o Filósofo"],
     "setup": false,
-    "ability": "Uma vez por jogo, durante a Noite, você pode escolher um personagem do bem: você ganha a habilidade dele. Se alguém já é for esse personagem, fica bêbado até você morrer."
+    "ability": "Uma vez por jogo, durante a Noite, você pode escolher um personagem do bem: você ganha a habilidade dele. Se alguém já é for esse personagem, esse personagem fica bêbado até o Filósofo morrer, mesmo que o personagem troque de jogador durante o jogo."
   },
   {
     "id": "artist",
