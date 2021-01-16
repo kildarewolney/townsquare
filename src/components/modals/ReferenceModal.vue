@@ -135,7 +135,7 @@ h4 {
 }
 
 .townsfolk {
-  "Cidadões",
+  .name,
   .player,
   h4 {
     color: $townsfolk;
