@@ -9,6 +9,7 @@
       }"
     ></li>
     <li v-if="players.length - teams.traveler < 5">
+      Minímo de jogadores para iniciar uma partida é 5. 
       Por favor adicione mais jogodares.
     </li>
     <li>
