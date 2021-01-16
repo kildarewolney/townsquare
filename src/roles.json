@@ -685,9 +685,9 @@
     "id": "pukka",
     "edition": "bmr",
     "firstNight": 18,
-    "firstNightReminder": "The Pukka points to a player. That player is poisoned.",
+    "firstNightReminder": "A pukka escolhe um jogador, Esse jogador está envenenado.",
     "otherNight": 20,
-    "otherNightReminder": "The poisoned player dies. The Pukka points to a player. That player is poisoned.",
+    "otherNightReminder": "Jogadores Envenenados morrem, mesmo que a Pukka esteja atualmente envenenada/bêbada. Pukka Escolhe um jogador, esse jogador está envenenado.",
     "reminders": [
       "Envenenado",
       "Morto"
@@ -695,7 +695,7 @@
     "setup": false,
     "name": "Pukka",
     "team": "demon",
-    "ability": "Toda Noite, escolha um jogador: ele é envenenado até a próxima Noite, então morre."
+    "ability": "Toda Noite, escolha um jogador: ele é envenenado até a próxima Noite, então morre. "
   },
   {
     "id": "shabaloth",
