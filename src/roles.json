@@ -1373,7 +1373,7 @@
     "id": "widow",
     "edition": "",
     "firstNight": 10,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the “These characters are in play” card, then the Widow character token.",
+    "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um bom jogador. Informe-o que a Viúva está em jogo. Caso a Viuvá se escolha, nenhum jogador deverá ser acordado.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -1389,9 +1389,9 @@
     "id": "leviathan",
     "edition": "",
     "firstNight": 100,
-    "firstNightReminder": "Place the Leviathan “Day 1” marker. Announce “The Leviathan is in play; this is Day 1.”.",
+    "firstNightReminder": "Coloque o marcador Leviathan “Dia 1”. Anuncie no próximo amanhecer “O Leviathan está em jogo; este é o primeiro dia ”.",
     "otherNight": 100,
-    "otherNightReminder": "Place the next Leviathan “Day n” marker, where “n” is the day number. Announce “The Leviathan is in play; this is Day n.”.",
+    "otherNightReminder": "Coloque o próximo marcador de Leviathan 'Dia N', onde 'N' é o número do dia. Anuncie no próximo amanhcer “O Leviathan está em jogo; este é o dia n. ”.",
     "reminders": [
       "Executado e do Bem",
       "Dia 1",
@@ -1411,7 +1411,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 31,
-    "otherNightReminder": "If either good living neighbor is drunk or poisoned, the Acrobat dies.",
+    "otherNightReminder": "Se um dos vizinhos do Acrobata está bêbado ou envenenado, o Acrobata morre.",
     "reminders": [
       "Morto"
     ],
@@ -1424,9 +1424,9 @@
     "id": "bountyhunter",
     "edition": "",
     "firstNight": 31,
-    "firstNightReminder": "Point to a player that is evil.",
+    "firstNightReminder": "Informe ao Caçador de Recompensas um jogador que é mau.",
     "otherNight": 48,
-    "otherNightReminder": "If the evil player that was known by the Bounty Hunter died since the previous night: Point to another player that is evil.",
+    "otherNightReminder": "Se o jogador do mal conhecido pelo Caçador de Recompensas morreu desde a noite anterior: Informe-o um jogador que é mau.",
     "reminders": [
       "Known"
     ],
@@ -1439,9 +1439,9 @@
     "id": "cultleader",
     "edition": "",
     "firstNight": 32,
-    "firstNightReminder": "The Cult Leader becomes the alignment of an alive neighbor: Show the “You are” card. Show the hand signal (thumb-up “good”, thumb-down “evil”) for the Cult Leader's current alignment.",
+    "firstNightReminder": "O Líder da Seita se torna o alinhamento de um vizinho vivo: Informe-o com 'Bem' ou 'Mal' para o alinhamento atual do líder da seita",
     "otherNight": 49,
-    "otherNightReminder": "The Cult Leader becomes the alignment of an alive neighbor: Show the “You are” card. Show the hand signal (thumb-up “good”, thumb-down “evil”) for the Cult Leader's current alignment.",
+    "otherNightReminder": "O Líder da Seita se torna o alinhamento de um vizinho vivo: Informe-o com 'Bem' ou 'Mal' para o alinhamento atual do líder da seita.",
     "reminders": [],
     "setup": false,
     "name": "Líder da Seita",
@@ -1452,9 +1452,9 @@
     "id": "preacher",
     "edition": "",
     "firstNight": 7,
-    "firstNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Mostre a ficha do Pregador. O Minion agora não tem mais uma habilidade.",
+    "firstNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade.",
     "otherNight": 5,
-    "otherNightReminder": "The Preacher points to a player. If that player is a Minion: Wake the Minion. Show the Preacher token. The Minion now does not have an ability anymore.",
+    "otherNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade.",
     "reminders": [
       "Sem habilidade"
     ],
