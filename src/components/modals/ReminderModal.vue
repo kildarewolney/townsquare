@@ -3,7 +3,7 @@
     v-if="modals.reminder && availableReminders.length && players[playerIndex]"
     @close="toggleModal('reminder')"
   >
-    <h3>Choose a reminder token:</h3>
+    <h3>Escolha um Marcador: </h3>
     <ul class="reminders">
       <li
         v-for="reminder in availableReminders"
