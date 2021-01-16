@@ -76,7 +76,7 @@ const mutations = {
     state.voteHistory.push({
       nominator: players[state.nomination[0]].name,
       nominee: players[state.nomination[1]].name,
-      type: isBanishment ? "Banishment" : "Execution",
+      type: isBanishment ? "Exílio" : "Execução",
       majority: Math.ceil(
         players.filter(player => !player.isDead || isBanishment).length / 2
       ),
