@@ -176,21 +176,21 @@
             <em><font-awesome-icon icon="file-code"/></em>
           </li>
           <li>
-            <a href="https://discord.gg/Gd7ybwWbFk" target="_blank">
+            <a href="https://discord.gg/3FGe8M44tW" target="_blank">
               Entrar Discord
             </a>
             <em>
-              <a href="https://discord.gg/Gd7ybwWbFk" target="_blank">
+              <a href="https://discord.gg/3FGe8M44tW" target="_blank">
                 <font-awesome-icon :icon="['fab', 'discord']" />
               </a>
             </em>
           </li>
           <li>
-            <a href="https://github.com/bra1n/townsquare" target="_blank">
+            <a href="https://github.com/botcbr/townsquare" target="_blank">
               Source code
             </a>
             <em>
-              <a href="https://github.com/bra1n/townsquare" target="_blank">
+              <a href="https://github.com/botcbr/townsquare" target="_blank">
                 <font-awesome-icon :icon="['fab', 'github']" />
               </a>
             </em>
