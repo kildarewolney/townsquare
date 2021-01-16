@@ -15,7 +15,7 @@
     <li>
       <span class="meta" v-if="!edition.isOfficial">
         {{ edition.name }}
-        {{ edition.author ? "by " + edition.author : "" }}
+        {{ edition.author ? "Por: " + edition.author : "" }}
       </span>
       <span>
         {{ players.length }} <font-awesome-icon class="players" icon="users" />
