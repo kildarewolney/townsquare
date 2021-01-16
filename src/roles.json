@@ -79,9 +79,9 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 23,
-    "firstNightReminder": ":eye: Show the finger signal (0, 1, 2) for the number of evil alive neighbours of the Empath. :eye-slash:",
+    "firstNightReminder": ":eye: Mostra o valor (0, 1, 2, ...) para o número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
     "otherNight": 38,
-    "otherNightReminder": ":eye: Show the finger signal (0, 1, 2) for the number of evil neighbours. :eye-slash:",
+    "otherNightReminder": ":eye: Mostra o valor (0, 1, 2, ...) para o número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
     "reminders": [],
     "setup": false,
     "ability": "Toda Noite, você descobre quantos jogadores são do mal, dentre os seus 2 vizinhos vivos mais próximos."
