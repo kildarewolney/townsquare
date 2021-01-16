@@ -13,7 +13,7 @@
       Este projeto é gratuito e traduzido de uma versão americana de código aberto e pode ser encontrado em
       <a href="https://github.com/bra1n/townsquare" target="_blank">GitHub</a>.
       Não é afiliado ao Pandemonium Institute. "Blood on the
-      Clocktower" não é afiliado ao Steven Medway e ao Pandemonium Institute.
+      Clocktower Brasil" não é afiliado ao Steven Medway e ao Pandemonium Institute.
     </div>
   </div>
 </template>
