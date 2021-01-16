@@ -653,7 +653,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 22,
-    "otherNightReminder": "If the Po chose no-one the previous night : The Po points to three players . Otherwise: The Po either shows the “no” head signal , or points to a player . The marked players (if any) die.",
+    "otherNightReminder": "Se o Po não escolheu ninguém na noite anterior: O Po escolhe três jogadores. Caso contrário: O Po pode recusar usar sua habilidade ou escolher um jogador. Os jogadores escolhidos (se houver) morrem na ordem escolhida.",
     "reminders": [
       "Morte 1",
       "Morte 2",
@@ -671,7 +671,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 19,
-    "otherNightReminder": "If no-one died during the day: • The Zombuul points to a player. That player dies.",
+    "otherNightReminder": "Se ninguém morreu durante o dia: • O Zombuul escolhe um jogador. Aquele jogador morre.",
     "reminders": [
       "Sem morte hoje",
       "Morto"
