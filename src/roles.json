@@ -8,10 +8,8 @@
     "firstNightReminder": ":eye: Informe um Personagem Cidadão e dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Cidadão",
-      "Falso"
-    ],
+    "reminders": ["Cidadão",
+      "Falso"],
     "setup": false,
     "ability": "Você começa sabendo que 1 dentre 2 jogadores é um cidadão específico."
   },
@@ -37,10 +35,8 @@
     "firstNightReminder": ":eye: Informe um Personagem Forasteiro e dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Forasteiro",
-      "Falso"
-    ],
+    "reminders": ["Forasteiro",
+      "Falso"],
     "setup": false,
     "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico. (ou que não há forasteiros em jogo)"
   },
@@ -53,10 +49,8 @@
     "firstNightReminder": ":eye: Informe um Personagem Lacaio e dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Lacaio",
-      "Falso"
-    ],
+    "reminders": ["Lacaio",
+      "Falso"],
     "setup": false,
     "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Lacaio específico."
   },
@@ -95,9 +89,7 @@
     "firstNightReminder": ":eye: Escolha uma pessoa para ser lida incorretamente, caso ainda não tenha escolhido. O Vidente escolhe dois jogadores. Responda com 'Sim' ou 'não' caso um desses jogadores é o Demônio. :eye-slash:",
     "otherNight": 39,
     "otherNightReminder": ":eye: O Vidente escolhe dois jogadores. Responda com 'Sim' ou 'não' caso um desses jogadores é o Demônio. :eye-slash:",
-    "reminders": [
-      "Falso"
-    ],
+    "reminders": ["Falso"],
     "setup": false,
     "ability": "Toda Noite, escolha 2 jogadores: Você descobre se o Demônio é um deles. No entanto, existe um jogador do bem que é sempre detectado incorretamente."
   },
@@ -110,9 +102,7 @@
     "firstNightReminder": "",
     "otherNight": 40,
     "otherNightReminder": ":question-circle: Se um jogador foi executado hoje: :eye: Mostre o Token do Personagem desse jogador. :eye-slash:",
-    "reminders": [
-      "Executado"
-    ],
+    "reminders": ["Executado"],
     "setup": false,
     "ability": "Toda Noite*, você descobre qual personagem foi morto por execução durante o Dia."
   },
@@ -125,9 +115,7 @@
     "firstNightReminder": "",
     "otherNight": 10,
     "otherNightReminder": "O Jogador protegido anteriormente não está mais protegido. :plus-circle: :eye: O Monge aponta para um jogador, não pode escolher ele mesmo. :eye-slash: Marque esse jogador com 'Protegido'. :plus-circle:",
-    "reminders": [
-      "Protegido"
-    ],
+    "reminders": ["Protegido"],
     "setup": false,
     "ability": "Toda Noite*, escolha um jogador (exceto você): ele estará imune ao Demônio esta Noite."
   },
@@ -166,9 +154,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Usado"
-    ],
+    "reminders": ["Usado"],
     "setup": false,
     "ability": "Apenas uma vez no jogo, durante a fase do Dia, você pode escolher publicamente um jogador: se ele for o Demônio, morrerá."
   },
@@ -194,9 +180,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Usado"
-    ],
+    "reminders": ["Usado"],
     "setup": false,
     "ability": "Apenas na primeira vez que você for nomeado, se o nomeador for um Cidadão, ele é executado imediatamente. (A Manhã é encerrada, como ocorre com qualquer execução)"
   },
@@ -209,9 +193,7 @@
     "firstNightReminder": ":eye: O Mordomo aponta para um jogador. :eye-slash: Marque esse jogador como 'Mestre'. :plus-circle:",
     "otherNight": 50,
     "otherNightReminder": ":eye: O Mordomo aponta para um jogador. :eye-slash: Marque esse jogador como 'Mestre'. :plus-circle:",
-    "reminders": [
-      "Mestre"
-    ],
+    "reminders": ["Mestre"],
     "setup": false,
     "ability": "Toda Noite, escolha um jogador para ser seu Mestre: Durante uma votação, você não poderá levantar a mão se o seu Mestre não levantar. Se o Mestre abaixar a mão, você também deve abaixar."
   },
@@ -225,9 +207,7 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
-    "remindersGlobal": [
-      "Bêbado"
-    ],
+    "remindersGlobal": ["Bêbado"],
     "setup": true,
     "ability": "Você não sabe que é o Bêbado. Em vez disso, você acredita ser um Cidadão mas sua habilidade é apenas uma ilusão."
   },
@@ -279,9 +259,7 @@
     "firstNightReminder": ":eye: O Envenenador escolhe um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
     "otherNight": 6,
     "otherNightReminder": "O jogador envenenado anteriormente não está mais envenenado. :plus-circle: :eye: O Envenenador escolhe um jogador. :eye-slash: Esse jogador está envenenado. :plus-circle:",
-    "reminders": [
-      "Envenenado"
-    ],
+    "reminders": ["Envenenado"],
     "setup": false,
     "ability": "Toda Noite, escolha um jogador: ele está envenenado até o próximo anoitecer."
   },
@@ -307,9 +285,7 @@
     "firstNightReminder": "",
     "otherNight": 15,
     "otherNightReminder": ":question-circle: Se a Promíscua se tornasse o Demônio hoje: :eye: Informe-a que ela é o demônio. :eye-slash:",
-    "reminders": [
-      "Demônio"
-    ],
+    "reminders": ["Demônio"],
     "setup": false,
     "ability": "Se ainda houver 5 ou mais jogadores não-viajantes vivos e o Demônio morrer, seu personagem é substituído pelo do Demônio."
   },
@@ -322,9 +298,7 @@
     "firstNightReminder": "",
     "otherNight": 18,
     "otherNightReminder": ":eye: O Capeta escolhe um jogador. :eye-slash: Esse jogador morre. :plus-circle: Se o Capeta se escolher: • Substitua o personagem de 1 lacaio vivo pelo Capeta. :plus-circle: • :eye: Acorde o novo Capeta. Informe-o que ele é o Capeta. :eye-slash:",
-    "reminders": [
-      "Morto"
-    ],
+    "reminders": ["Morto"],
     "setup": false,
     "ability": "Toda Noite*, escolha um jogador: ele morre imediatamente. Se você se matar desta forma, um Lacaio vivo substituíra o personagem dele pelo seu."
   },
@@ -335,9 +309,7 @@
     "firstNightReminder": "Informe a Vovó qual jogador é o seu Neto.",
     "otherNight": 31,
     "otherNightReminder": "Se o Neto da Vovó foi morto pelo Demônio esta noite: •  A Vovó morre.",
-    "reminders": [
-      "Neto"
-    ],
+    "reminders": ["Neto"],
     "setup": false,
     "name": "Vovó",
     "team": "townsfolk",
@@ -350,9 +322,7 @@
     "firstNightReminder": "O Marinheiro escolhe um jogador vivo. O Marinheiro ou o jogador escolhido está bêbado.",
     "otherNight": 2,
     "otherNightReminder": "O jogador anteriormente bêbado não está mais bêbado. O Marinheiro escolhe um jogador vivo. O Marinheiro ou o jogador escolhido está bêbado.",
-    "reminders": [
-      "Bêbado"
-    ],
+    "reminders": ["Bêbado"],
     "setup": false,
     "name": "Marinheiro",
     "team": "townsfolk",
@@ -378,9 +348,7 @@
     "firstNightReminder": "",
     "otherNight": 17,
     "otherNightReminder": "O Exorcista escolhe um jogador, diferente da noite anterior. Se esse jogador for o Demônio: • Acorde o Demônio. Informe-o quem é o exorcista. • O Demônio não age esta noite.",
-    "reminders": [
-      "Escolhido"
-    ],
+    "reminders": ["Escolhido"],
     "setup": false,
     "name": "Exorcista",
     "team": "townsfolk",
@@ -393,10 +361,8 @@
     "firstNightReminder": "",
     "otherNight": 3,
     "otherNightReminder": "Os jogadores previamente protegidos e bêbados perdem esses marcadores. O estalajadeiro aponta para dois jogadores. Esses jogadores estão protegidos. Um está bêbado.",
-    "reminders": [
-      "Protegido",
-      "Bêbado"
-    ],
+    "reminders": ["Protegido",
+      "Bêbado"],
     "setup": false,
     "name": "Estalajadeiro",
     "team": "townsfolk",
@@ -409,9 +375,7 @@
     "firstNightReminder": "",
     "otherNight": 8,
     "otherNightReminder": "O Apostador escolhe um jogador e um personagem. Se incorreto, o jogador morre.",
-    "reminders": [
-      "Morto"
-    ],
+    "reminders": ["Morto"],
     "setup": false,
     "name": "Apostador",
     "team": "townsfolk",
@@ -424,9 +388,7 @@
     "firstNightReminder": "",
     "otherNight": 30,
     "otherNightReminder": "Se a afirmação pública da fofoqueira for verdadeira: • Escolha um jogador que não esteja protegido contra a morte esta noite. Aquele jogador morre.",
-    "reminders": [
-      "Morto"
-    ],
+    "reminders": ["Morto"],
     "setup": false,
     "name": "Fofoqueira",
     "team": "townsfolk",
@@ -439,12 +401,10 @@
     "firstNightReminder": "O Cortesão pode recusar usar a sua habilidade ou escolher um personagem. Caso o cortesão use sua habilidade: Se esse personagem está em jogo, esse jogador está bêbado.",
     "otherNight": 7,
     "otherNightReminder": "Reduza o número restante de dias em que o jogador escolhido está bêbado. Se o Courier ainda não usou sua habilidade: • O Cortesão pode recusar usar a sua habilidade ou escolher um personagem. Caso o cortesão use sua habilidade: Se esse personagem está em jogo, esse jogador está bêbado. Caso o Cortesão fique bêbado/envenenado enquanto sua habilidade estiver ativa, o personagem escolhido anteriormente fica temporariamente sóbrio e o contador de dias é reduzido.",
-    "reminders": [
-      "Bêbado 1",
+    "reminders": ["Bêbado 1",
       "Bêbado 2",
       "Bêbado 3",
-      "Usado"
-    ],
+      "Usado"],
     "setup": false,
     "name": "Cortesão",
     "team": "townsfolk",
@@ -457,10 +417,8 @@
     "firstNightReminder": "",
     "otherNight": 35,
     "otherNightReminder": "Se o professor não usou sua habilidade: • O Professor pode recusar usar sua habilidade ou escolher um jogador morto. • Se esse jogador for um cidadão, ele agora está vivo.",
-    "reminders": [
-      "Vivo",
-      "Usado"
-    ],
+    "reminders": ["Vivo",
+      "Usado"],
     "setup": false,
     "name": "Cientista",
     "team": "townsfolk",
@@ -473,9 +431,7 @@
     "firstNightReminder": "",
     "otherNight": 1,
     "otherNightReminder": "Remova o marcador “Todos bêbados”. Se um Lacaio morreu hoje: Todos os jogadores, exceto o Bardo, estão bêbados. Coloque o marcador “Todos bêbados”.",
-    "reminders": [
-      "Todos Bêbados"
-    ],
+    "reminders": ["Todos Bêbados"],
     "setup": false,
     "name": "Bardo",
     "team": "townsfolk",
@@ -488,9 +444,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Protegido"
-    ],
+    "reminders": ["Protegido"],
     "setup": false,
     "name": "Moça do Chá",
     "team": "townsfolk",
@@ -516,9 +470,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Usado"
-    ],
+    "reminders": ["Usado"],
     "setup": false,
     "name": "Bobo",
     "team": "townsfolk",
@@ -531,9 +483,7 @@
     "firstNightReminder": "",
     "otherNight": 29,
     "otherNightReminder": "O mecânico pode morrer.",
-    "reminders": [
-      "Morto"
-    ],
+    "reminders": ["Morto"],
     "setup": false,
     "name": "Mecânico",
     "team": "outsider",
@@ -546,9 +496,7 @@
     "firstNightReminder": "",
     "otherNight": 36,
     "otherNightReminder": "Se a Filha da Noite usou sua habilidade para atingir um jogador hoje: • Se aquele jogador for do bem, ele morre.",
-    "reminders": [
-      "Morto"
-    ],
+    "reminders": ["Morto"],
     "setup": false,
     "name": "Filha da Noite",
     "team": "outsider",
@@ -561,9 +509,7 @@
     "firstNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Capanga: • O Capanga se torna do mesmo alinhamneto (bem/mal) desse jogador. • Informe ao Capanga o seu alinhamneto atual.",
     "otherNight": 100,
     "otherNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Capanga: • O Capanga se torna do mesmo alinhamneto (bem/mal) desse jogador. • Informe ao Capanga o seu alinhamneto atual.",
-    "reminders": [
-      "Bêbado"
-    ],
+    "reminders": ["Bêbado"],
     "setup": false,
     "name": "Capanga",
     "team": "outsider",
@@ -576,12 +522,10 @@
     "firstNightReminder": "Se houver 7 ou mais jogadores: Informe ao Lunático os seus 'Lacaios'. Mostrar 3 Blefes de Personagens bons arbitrários. Se o Personagem recebido pelo Lunático for um Demônio que acordaria na primeira noite: • Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de 'ataque'. Acorde o demônio. Informe-o que ele é o demônio e o jogador que é o lunático. • Se o Lunatico atacou hoje: Informe ao demônio real os alvos do Lunático. Remova os marcadores de “ataque” do Lunatico.",
     "otherNight": 16,
     "otherNightReminder": "Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de 'ataque'. Se o Lunatico selecionou jogadores: Desperte o Demônio. Informe ao demônio real os alvos do Lunático. Remova os marcadores de “ataque” do Lunatico.",
-    "reminders": [
-      "Ataque 1",
+    "reminders": ["Ataque 1",
       "Ataque 2",
       "Ataque 3",
-      "Falso"
-    ],
+      "Falso"],
     "setup": false,
     "name": "Lunatico",
     "team": "outsider",
@@ -594,10 +538,8 @@
     "firstNightReminder": "Informe ao Chefe da Máfia os personagens Forasteiros que estão em jogo.",
     "otherNight": 29,
     "otherNightReminder": "Se um Forasteiro morreu hoje: •  O Chefe da Máfia escolhe um jogador. Esse jogador morre.",
-    "reminders": [
-      "Morreu Hoje",
-      "Morto"
-    ],
+    "reminders": ["Morreu Hoje",
+      "Morto"],
     "setup": true,
     "name": "Chefe da Máfia",
     "team": "minion",
@@ -610,9 +552,7 @@
     "firstNightReminder": "O Advogado do Diabo aponta para um jogador vivo. Esse jogador sobrevive a execução amanhã.",
     "otherNight": 11,
     "otherNightReminder": "O Advogado do Diabo aponta para um jogador vivo, diferente do escolhido na noite anterior. Esse jogador sobrevive a execução amanhã",
-    "reminders": [
-      "Sobrevive a execução"
-    ],
+    "reminders": ["Sobrevive a execução"],
     "setup": false,
     "name": "Advogado do Diabo",
     "team": "minion",
@@ -625,10 +565,8 @@
     "firstNightReminder": "",
     "otherNight": 28,
     "otherNightReminder": "Se o Assassino ainda não usou sua habilidade: • O Assassino pode recusar usar a habilidade ou aponta para um jogador. Aquele jogador morre mesmo que ele não possa.",
-    "reminders": [
-      "Morto",
-      "Usado"
-    ],
+    "reminders": ["Morto",
+      "Usado"],
     "setup": false,
     "name": "Assassino",
     "team": "minion",
@@ -654,12 +592,10 @@
     "firstNightReminder": "",
     "otherNight": 22,
     "otherNightReminder": "Se o Po não escolheu ninguém na noite anterior: O Po escolhe três jogadores. Caso contrário: O Po pode recusar usar sua habilidade ou escolher um jogador. Os jogadores escolhidos (se houver) morrem na ordem escolhida.",
-    "reminders": [
-      "Morte 1",
+    "reminders": ["Morte 1",
       "Morte 2",
       "Morte 3",
-      "Ataque x3"
-    ],
+      "Ataque x3"],
     "setup": false,
     "name": "Po",
     "team": "demon",
@@ -672,10 +608,8 @@
     "firstNightReminder": "",
     "otherNight": 19,
     "otherNightReminder": "Se ninguém morreu durante o dia: • O Zombuul escolhe um jogador. Aquele jogador morre.",
-    "reminders": [
-      "Sem morte hoje",
-      "Morto"
-    ],
+    "reminders": ["Sem morte hoje",
+      "Morto"],
     "setup": false,
     "name": "Zombuul",
     "team": "demon",
@@ -688,10 +622,8 @@
     "firstNightReminder": "A pukka escolhe um jogador, Esse jogador está envenenado, daqui a 24 horas ele morrerá.",
     "otherNight": 20,
     "otherNightReminder": "Jogadores Envenenados morrem, mesmo que a Pukka esteja atualmente envenenada/bêbada. Pukka Escolhe um jogador, esse jogador está envenenado.",
-    "reminders": [
-      "Envenenado",
-      "Morto"
-    ],
+    "reminders": ["Envenenado",
+      "Morto"],
     "setup": false,
     "name": "Pukka",
     "team": "demon",
@@ -704,11 +636,9 @@
     "firstNightReminder": "",
     "otherNight": 21,
     "otherNightReminder": "One player that the Shabaloth chose the previous night might come alive. The Shabaloth points to two players. Those players die.",
-    "reminders": [
-      "Morto 1",
+    "reminders": ["Morto 1",
       "Morto 2",
-      "Vivo"
-    ],
+      "Vivo"],
     "setup": false,
     "name": "Shabaloth",
     "team": "demon",
@@ -747,9 +677,7 @@
     "firstNightReminder": "The Snake Charmer points to a player. If that player is the Demon: • Swap the Snake Charmer and Demon character tokens. • Wake the new Demon. Show the “You are” card, then the thumb-down “evil” sign. Show the “You are” card, then the Demon token. • The new Snake Charmer is poisoned . Wake the new Snake Charmer. Show the “You are” card, then the thumb-up “good” sign. Show the “You are” card, then the Snake Charmer token.",
     "otherNight": 9,
     "otherNightReminder": "The Snake Charmer points to a player. If that player is the Demon: • Swap the Snake Charmer and Demon character tokens. Wake the new Demon. Show the “You are” card, then the thumb-down “evil” sign. Show the “You are” card, then the Demon token. • The new Snake Charmer is poisoned . Wake the new Snake Charmer. Show the “You are” card, then the thumb-up “good” sign. Show the “You are” card, then the Snake Charmer token.",
-    "reminders": [
-      "Envenenado"
-    ],
+    "reminders": ["Envenenado"],
     "setup": false,
     "name": "Encantador de Serpentes",
     "team": "townsfolk",
@@ -762,9 +690,7 @@
     "firstNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of “Abnormal Effect” markers. Remove markers",
     "otherNight": 54,
     "otherNightReminder": "Show the hand signal for the number (0, 1, 2, etc.) of “Abnormal Effect” markers. Remove markers.",
-    "reminders": [
-      "Efeito Anormal"
-    ],
+    "reminders": ["Efeito Anormal"],
     "setup": false,
     "name": "Matemático",
     "team": "townsfolk",
@@ -777,10 +703,8 @@
     "firstNightReminder": "Place the “Demon did not vote” marker.",
     "otherNight": 42,
     "otherNightReminder": "Show the head signal (nod “yes”, shake “no”) for whether the Demon voted today. Place the “Demon did not vote” marker (remove “Demon voted”, if any).",
-    "reminders": [
-      "Demônio votou",
-      "Demônio não votou"
-    ],
+    "reminders": ["Demônio votou",
+      "Demônio não votou"],
     "setup": false,
     "name": "Florista",
     "team": "townsfolk",
@@ -793,10 +717,8 @@
     "firstNightReminder": "Place the “Minions did not nominate” marker.",
     "otherNight": 43,
     "otherNightReminder": "Show the head signal (nod “yes”, shake “no”) for whether any Minion nominated today. Place the “Minions did not nominate” marker (remove “Minion nominated”, if any).",
-    "reminders": [
-      "Lacaio não nomeou",
-      "Lacaio Nomeou"
-    ],
+    "reminders": ["Lacaio não nomeou",
+      "Lacaio Nomeou"],
     "setup": false,
     "name": "Mensageiro",
     "team": "townsfolk",
@@ -835,9 +757,7 @@
     "firstNightReminder": "The Seamstress either shows a “no” head signal, or points to two other players. If the Seamstress chose two players, nod “yes” or shake “no” for whether they are of same alignment.",
     "otherNight": 45,
     "otherNightReminder": "If the Seamstress has not yet used their ability: • The Seamstress either shows a “no” head signal, or points to two other players. • If the Seamstress chose players , nod “yes” or shake “no” for whether they are of same alignment.",
-    "reminders": [
-      "Usado"
-    ],
+    "reminders": ["Usado"],
     "setup": false,
     "name": "Costureira",
     "team": "townsfolk",
@@ -850,10 +770,8 @@
     "firstNightReminder": "The Philosopher either shows a “no” head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, that player is drunk and the Philosopher is now that character .",
     "otherNight": 1,
     "otherNightReminder": "If the Philosopher has not yet used their ability: • The Philosopher either shows a “no” head signal, or points to a good character on their sheet. • If they chose a character: Swap the out-of-play character token with the Philosopher token. Or, if the character is in play, that player is drunk and the Philosopher is now that character .",
-    "reminders": [
-      "Usado",
-      "Bêbado"
-    ],
+    "reminders": ["Usado",
+      "Bêbado"],
     "setup": false,
     "name": "Filósofo",
     "team": "townsfolk",
@@ -866,9 +784,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Usado"
-    ],
+    "reminders": ["Usado"],
     "setup": false,
     "name": "Artista",
     "team": "townsfolk",
@@ -881,9 +797,7 @@
     "firstNightReminder": "",
     "otherNight": 46,
     "otherNightReminder": "If today was the Juggler’s first day: • Show the hand signal for the number (0, 1, 2, etc.) of “Correct” markers. Remove markers.",
-    "reminders": [
-      "Correto"
-    ],
+    "reminders": ["Correto"],
     "setup": false,
     "name": "Malabarista",
     "team": "townsfolk",
@@ -922,9 +836,7 @@
     "firstNightReminder": "",
     "otherNight": 33,
     "otherNightReminder": "",
-    "reminders": [
-      "Bêbado"
-    ],
+    "reminders": ["Bêbado"],
     "setup": false,
     "name": "Queridinha",
     "team": "outsider",
@@ -937,9 +849,7 @@
     "firstNightReminder": "",
     "otherNight": 32,
     "otherNightReminder": "If the Barber died today : • Wake the Demon. Show the “This character selected you” card, then Barber token. • The Demon either shows a “no” head signal, or points to 2 non-Demon players. If they chose players: ◦ Swap the character tokens. Wake each player. Show “You are”, then their character token.",
-    "reminders": [
-      "Troca"
-    ],
+    "reminders": ["Troca"],
     "setup": false,
     "name": "Barbeiro",
     "team": "outsider",
@@ -965,9 +875,7 @@
     "firstNightReminder": "Wake the Evil Twin and their twin. Confirm that they have acknowledged each other. Point to the Evil Twin. Show their Evil Twin token to the twin player. Point to the twin. Show their character token to the Evil Twin player.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Gêmea"
-    ],
+    "reminders": ["Gêmea"],
     "setup": false,
     "name": "Gêmea Má",
     "team": "minion",
@@ -980,9 +888,7 @@
     "firstNightReminder": "The Witch points to a player. That player is cursed for the next day.",
     "otherNight": 12,
     "otherNightReminder": "The Witch points to a player. That player is cursed for the next day.",
-    "reminders": [
-      "Amaldiçoado"
-    ],
+    "reminders": ["Amaldiçoado"],
     "setup": false,
     "name": "Bruxa",
     "team": "minion",
@@ -995,9 +901,7 @@
     "firstNightReminder": "The Cerenovus points to a player, then to a character on their sheet. That player should “be mad about” being that character. Wake that player. Show the “This character selected you” card, then the Cerenovus token. Show the “mad about being” marker, then that character token.",
     "otherNight": 13,
     "otherNightReminder": "The Cerenovus points to a player, then to a character on their sheet. That player should “be mad about” being that character. . Wake that player. Show the “This character selected you” card, then the Cerenovus token. Show the “mad about being” marker, then that character token.",
-    "reminders": [
-      "Louco"
-    ],
+    "reminders": ["Louco"],
     "setup": false,
     "name": "Cerenovus",
     "team": "minion",
@@ -1023,9 +927,7 @@
     "firstNightReminder": "",
     "otherNight": 23,
     "otherNightReminder": "The Fang Gu points to a player. That player dies . Or, if that player was an Outsider: • The Fang Gu dies instead of the chosen player. The chosen player is now an evil Fang Gu. • Wake the new Fang Gu. Show the “You are” card, then the Fang Gu token. Show the “You are” card, then the thumb-down “evil” hand sign.",
-    "reminders": [
-      "Morto"
-    ],
+    "reminders": ["Morto"],
     "setup": true,
     "name": "Fang Gu",
     "team": "demon",
@@ -1038,11 +940,9 @@
     "firstNightReminder": "",
     "otherNight": 26,
     "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned .",
-    "reminders": [
-      "Morto",
+    "reminders": ["Morto",
       "Envenenado",
-      "Habilidade Ativa"
-    ],
+      "Habilidade Ativa"],
     "setup": true,
     "name": "Vigormortis",
     "team": "demon",
@@ -1055,10 +955,8 @@
     "firstNightReminder": "",
     "otherNight": 24,
     "otherNightReminder": "The No Dashii points to a player. That player dies.",
-    "reminders": [
-      "Morto",
-      "Envenenado"
-    ],
+    "reminders": ["Morto",
+      "Envenenado"],
     "setup": false,
     "name": "No Dashii",
     "team": "demon",
@@ -1071,9 +969,7 @@
     "firstNightReminder": "",
     "otherNight": 25,
     "otherNightReminder": "The Vortox points to a player. That player dies.",
-    "reminders": [
-      "Morto"
-    ],
+    "reminders": ["Morto"],
     "setup": false,
     "name": "Vortox",
     "team": "demon",
@@ -1125,9 +1021,7 @@
     "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's “Vote x3” reminder by the chosen player's character token.",
     "otherNight": 1,
     "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's “Vote x3” reminder by the chosen player's character token.",
-    "reminders": [
-      "Voto x3"
-    ],
+    "reminders": ["Voto x3"],
     "setup": false,
     "name": "Burocrata",
     "team": "traveler",
@@ -1140,9 +1034,7 @@
     "firstNightReminder": "The Thief points to a player. Put the Thief's “Negative vote” reminder by the chosen player's character token.",
     "otherNight": 1,
     "otherNightReminder": "The Thief points to a player. Put the Thief's “Negative vote” reminder by the chosen player's character token.",
-    "reminders": [
-      "Voto Negativo"
-    ],
+    "reminders": ["Voto Negativo"],
     "setup": false,
     "name": "Ladão",
     "team": "traveler",
@@ -1155,9 +1047,7 @@
     "firstNightReminder": "Show the Apprentice the \"You are\" info token, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's \"Apprentice ability\" reminder by that character token.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Habilidade de aprendiz"
-    ],
+    "reminders": ["Habilidade de aprendiz"],
     "setup": false,
     "name": "Aprendiz",
     "team": "traveler",
@@ -1196,9 +1086,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Usado"
-    ],
+    "reminders": ["Usado"],
     "setup": false,
     "name": "Juiz",
     "team": "traveler",
@@ -1211,10 +1099,8 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Nomeado Bom",
-      "Nomeado Mal"
-    ],
+    "reminders": ["Nomeado Bom",
+      "Nomeado Mal"],
     "setup": false,
     "name": "Bispo",
     "team": "traveler",
@@ -1240,10 +1126,8 @@
     "firstNightReminder": "",
     "otherNight": 1,
     "otherNightReminder": "The Bone Collector either shake their head no or point at any dead player. If they pointed at any dead player, put the Bone Collector's \"Has Ability\" reminder by the chosen player's character token. (They may need to be woken tonight to use it.)",
-    "reminders": [
-      "Usado",
-      "Habilidade Ativa"
-    ],
+    "reminders": ["Usado",
+      "Habilidade Ativa"],
     "setup": false,
     "name": "Coletor de Osso",
     "team": "traveler",
@@ -1256,9 +1140,7 @@
     "firstNightReminder": "",
     "otherNight": 1,
     "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the \"This character selected you\" token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
-    "reminders": [
-      "Morto"
-    ],
+    "reminders": ["Morto"],
     "setup": false,
     "name": "Meretriz",
     "team": "traveler",
@@ -1271,10 +1153,8 @@
     "firstNightReminder": "Each night, put the Barista's \"Sober and Healthy\" reminder or their \"Acts Twice\" reminder by any character token. Wake that character’s player and show them the “This player selected you” info token, then the Barista token, then one finger (to show they are sober and healthy) or two fingers (to show they act twice).",
     "otherNight": 1,
     "otherNightReminder": "Each night, put the Barista's \"Sober and Healthy\" reminder or their \"Acts Twice\" reminder by any character token. Wake that character’s player and show them the “This player selected you” info token, then the Barista token, then one finger (to show they are sober and healthy) or two fingers (to show they act twice).",
-    "reminders": [
-      "Atua duas vezes",
-      "Sóbrio e Saudável"
-    ],
+    "reminders": ["Atua duas vezes",
+      "Sóbrio e Saudável"],
     "setup": false,
     "name": "Barista",
     "team": "traveler",
@@ -1330,10 +1210,8 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Habilidade adquirida",
-      "Enveneado"
-    ],
+    "reminders": ["Habilidade adquirida",
+      "Enveneado"],
     "setup": false,
     "name": "Canibal",
     "team": "townsfolk",
@@ -1346,9 +1224,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Usado"
-    ],
+    "reminders": ["Usado"],
     "setup": false,
     "name": "Pescador",
     "team": "townsfolk",
@@ -1361,9 +1237,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Clamado Hoje"
-    ],
+    "reminders": ["Clamado Hoje"],
     "setup": false,
     "name": "Goblin",
     "team": "minion",
@@ -1376,10 +1250,8 @@
     "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um bom jogador. Informe-o que a Viúva está em jogo. Caso a Viuvá se escolha, nenhum jogador deverá ser acordado.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Envenenado",
-      "Knowing"
-    ],
+    "reminders": ["Envenenado",
+      "Knowing"],
     "setup": false,
     "name": "Viúva",
     "team": "minion",
@@ -1392,14 +1264,12 @@
     "firstNightReminder": "Coloque o marcador Leviathan “Dia 1”. Anuncie no próximo amanhecer “O Leviathan está em jogo; este é o primeiro dia ”.",
     "otherNight": 100,
     "otherNightReminder": "Coloque o próximo marcador de Leviathan 'Dia N', onde 'N' é o número do dia. Anuncie no próximo amanhcer “O Leviathan está em jogo; este é o dia n. ”.",
-    "reminders": [
-      "Executado e do Bem",
+    "reminders": ["Executado e do Bem",
       "Dia 1",
       "Dia 2",
       "Dia 3",
       "Dia 4",
-      "Dia 5"
-    ],
+      "Dia 5"],
     "setup": false,
     "name": "Leviathan",
     "team": "demon",
@@ -1412,9 +1282,7 @@
     "firstNightReminder": "",
     "otherNight": 31,
     "otherNightReminder": "Se um dos vizinhos do Acrobata está bêbado ou envenenado, o Acrobata morre.",
-    "reminders": [
-      "Morto"
-    ],
+    "reminders": ["Morto"],
     "setup": false,
     "name": "Acrobata",
     "team": "outsider",
@@ -1427,9 +1295,7 @@
     "firstNightReminder": "Informe ao Caçador de Recompensas um jogador que é mau.",
     "otherNight": 48,
     "otherNightReminder": "Se o jogador do mal conhecido pelo Caçador de Recompensas morreu desde a noite anterior: Informe-o um jogador que é mau.",
-    "reminders": [
-      "Known"
-    ],
+    "reminders": ["Known"],
     "setup": true,
     "name": "Caçador de Recompensas",
     "team": "townsfolk",
@@ -1455,9 +1321,7 @@
     "firstNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade.",
     "otherNight": 5,
     "otherNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade.",
-    "reminders": [
-      "Sem habilidade"
-    ],
+    "reminders": ["Sem habilidade"],
     "setup": false,
     "name": "Missionário",
     "team": "townsfolk",
@@ -1484,10 +1348,8 @@
     "otherNight": 27,
     "otherNightReminder": "Acorde todos os Lacaios. Os Lacaios escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio.",
     "reminders": [],
-    "remindersGlobal": [
-      "Morto",
-      "Demônio"
-    ],
+    "remindersGlobal": ["Morto",
+      "Demônio"],
     "setup": true,
     "name": "Bebê Monstro",
     "team": "demon",
