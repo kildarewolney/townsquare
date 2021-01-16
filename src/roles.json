@@ -5,7 +5,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 19,
-    "firstNightReminder": ":eye: Informe um Personagem Cidadão. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
+    "firstNightReminder": ":eye: Informe um Personagem Cidadão e dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -34,7 +34,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 20,
-    "firstNightReminder": ":eye: Informe um Personagem Forasteiro. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
+    "firstNightReminder": ":eye: Informe um Personagem Forasteiro e dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -50,7 +50,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 21,
-    "firstNightReminder": ":eye: Informe um Personagem Lacaio. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
+    "firstNightReminder": ":eye: Informe um Personagem Lacaio e dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -66,7 +66,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 22,
-    "firstNightReminder": ":eye: Mostra o valor (0, 1, 2, ...) para o número de pares de jogadores maus vizinhos. :eye-slash:",
+    "firstNightReminder": ":eye: Informe o valor (0, 1, 2, ...) do número de pares de jogadores maus vizinhos. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
@@ -79,9 +79,9 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 23,
-    "firstNightReminder": ":eye: Informe o valor (0, 1, 2, ...) para o número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
+    "firstNightReminder": ":eye: Informe o valor (0, 1, 2, ...) do número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
     "otherNight": 38,
-    "otherNightReminder": ":eye: Informe o valor (0, 1, 2, ...) para o número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
+    "otherNightReminder": ":eye: Informe o valor (0, 1, 2, ...) do número de vizinhos vivos maus ao lado do Médium. :eye-slash:",
     "reminders": [],
     "setup": false,
     "ability": "Toda Noite, você descobre quantos jogadores são do mal, dentre os seus 2 vizinhos vivos mais próximos."
@@ -92,9 +92,9 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 24,
-    "firstNightReminder": ":eye: O Vidente escolhe dois jogadores. Resnponda com 'Sim' ou 'não' caso um desses jogadores é o Demônio. :eye-slash:",
+    "firstNightReminder": ":eye: Escolha uma pessoa para ser lida incorretamente, caso ainda não tenha escolhido. O Vidente escolhe dois jogadores. Responda com 'Sim' ou 'não' caso um desses jogadores é o Demônio. :eye-slash:",
     "otherNight": 39,
-    "otherNightReminder": ":eye: O Vidente escolhe dois jogadores. Resnponda com 'Sim' ou 'não' caso um desses jogadores é o Demônio. :eye-slash:",
+    "otherNightReminder": ":eye: O Vidente escolhe dois jogadores. Responda com 'Sim' ou 'não' caso um desses jogadores é o Demônio. :eye-slash:",
     "reminders": [
       "Falso"
     ],
