@@ -1281,7 +1281,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 31,
-    "otherNightReminder": "Se um dos vizinhos do Acrobata está bêbado ou envenenado, o Acrobata morre.",
+    "otherNightReminder": "Se um dos vizinhos do Bem do Acrobata está bêbado ou envenenado, o Acrobata morre.",
     "reminders": ["Morto"],
     "setup": false,
     "name": "Acrobata",
