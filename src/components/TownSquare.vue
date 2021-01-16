@@ -155,7 +155,7 @@ export default {
       if (this.session.isSpectator) return;
       if (
         confirm(
-          `Do you really want to remove ${this.players[playerIndex].name}?`
+          `Você realmente quer remover ${this.players[playerIndex].name}?`
         )
       ) {
         this.$store.commit("players/remove", playerIndex);
