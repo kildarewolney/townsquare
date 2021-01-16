@@ -332,9 +332,9 @@
     "id": "grandmother",
     "edition": "bmr",
     "firstNight": 26,
-    "firstNightReminder": "Show the marked character token. Point to the marked player.",
+    "firstNightReminder": "Informe a Vovó qual jogador é o seu Neto.",
     "otherNight": 31,
-    "otherNightReminder": "If the Grandmother’s grandchild was killed by the Demon tonight: • The Grandmother dies.",
+    "otherNightReminder": "Se o Neto da Vovó foi morto pelo Demônio esta noite: •  A Vovó morre.",
     "reminders": [
       "Neto"
     ],
@@ -347,9 +347,9 @@
     "id": "sailor",
     "edition": "bmr",
     "firstNight": 4,
-    "firstNightReminder": "The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "firstNightReminder": "O Marinheiro escolhe um jogador vivo. O Marinheiro ou o jogador escolhido está bêbado.",
     "otherNight": 2,
-    "otherNightReminder": "The previously drunk player is no longer drunk. The Sailor points to a living player. Either the Sailor, or the chosen player, is drunk.",
+    "otherNightReminder": "O jogador anteriormente bêbado não está mais bêbado. O Marinheiro escolhe um jogador vivo. O Marinheiro ou o jogador escolhido está bêbado.",
     "reminders": [
       "Bêbado"
     ],
@@ -362,9 +362,9 @@
     "id": "chambermaid",
     "edition": "bmr",
     "firstNight": 35,
-    "firstNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2, …) for how many of those players wake tonight for their ability.",
+    "firstNightReminder": "A Camareira escolhe dois jogadores. Informe o valor (0, 1, 2, ...) de quantos desses jogadores acordaram hoje à noite por sua habilidade.",
     "otherNight": 53,
-    "otherNightReminder": "The Chambermaid points to two players. Show the number signal (0, 1, 2) for how many of those players wake tonight for their ability.",
+    "otherNightReminder": "A Camareira escolhe dois jogadores. Informe o valor (0, 1, 2, ...) de quantos desses jogadores acordaram hoje à noite por sua habilidade.",
     "reminders": [],
     "setup": false,
     "name": "Camareira",
@@ -377,7 +377,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 17,
-    "otherNightReminder": "The Exorcist points to a player, different from the previous night. If that player is the Demon: • Wake the Demon. Show the Exorcist token. Point to the Exorcist. • The Demon does not act tonight.",
+    "otherNightReminder": "O Exorcista escolhe um jogador, diferente da noite anterior. Se esse jogador for o Demônio: • Acorde o Demônio. Informe-o quem é o exorcista. • O Demônio não age esta noite.",
     "reminders": [
       "Escolhido"
     ],
@@ -392,7 +392,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 3,
-    "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
+    "otherNightReminder": "Os jogadores previamente protegidos e bêbados perdem esses marcadores. O estalajadeiro aponta para dois jogadores. Esses jogadores estão protegidos. Um está bêbado.",
     "reminders": [
       "Protegido",
       "Bêbado"
@@ -408,7 +408,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 8,
-    "otherNightReminder": "The Gambler points to a player, and a character on their sheet. If incorrect, the Gambler dies.",
+    "otherNightReminder": "O Apostador escolhe um jogador e um personagem. Se incorreto, o jogador morre.",
     "reminders": [
       "Morto"
     ],
@@ -423,7 +423,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 30,
-    "otherNightReminder": "If the Gossip’s public statement was true: • Choose a player not protected from dying tonight. That player dies.",
+    "otherNightReminder": "Se a afirmação pública da fofoqueira for verdadeira: • Escolha um jogador que não esteja protegido contra a morte esta noite. Aquele jogador morre.",
     "reminders": [
       "Morto"
     ],
