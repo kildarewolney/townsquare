@@ -456,7 +456,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 35,
-    "otherNightReminder": "If the Professor has not used their ability: • The Professor either shows the “no” head signal, or points to a player. • If that player is a Townsfolk, they are now alive.",
+    "otherNightReminder": "Se o professor não usou sua habilidade: • O Professor pode recusar usar sua habilidade ou escolher um jogador morto. • Se esse jogador for um cidadão, ele agora está vivo.",
     "reminders": [
       "Vivo",
       "Usado"
@@ -472,9 +472,9 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 1,
-    "otherNightReminder": "Remove the “Everyone drunk” marker. If a Minion died today: All players but the Minstrel are drunk. Place the “Everyone drunk” marker.",
+    "otherNightReminder": "Remova o marcador “Todos bêbados”. Se um Lacaio morreu hoje: Todos os jogadores, exceto o Bardo, estão bêbados. Coloque o marcador “Todos bêbados”.",
     "reminders": [
-      "Todo mundo Bêbado"
+      "Todos Bêbados"
     ],
     "setup": false,
     "name": "Bardo",
@@ -530,7 +530,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 29,
-    "otherNightReminder": "The Tinker might die.",
+    "otherNightReminder": "O mecânico pode morrer.",
     "reminders": [
       "Morto"
     ],
@@ -545,7 +545,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 36,
-    "otherNightReminder": "If the Moonchild used their ability to target a player today: • If that player is good, they die.",
+    "otherNightReminder": "Se a Filha da Noite usou sua habilidade para atingir um jogador hoje: • Se aquele jogador for do bem, ele morre.",
     "reminders": [
       "Morto"
     ],
@@ -558,9 +558,9 @@
     "id": "goon",
     "edition": "bmr",
     "firstNight": 100,
-    "firstNightReminder": "If a player used their character ability to choose the Goon: • The Goon becomes that player’s alignment. • Show the “You are” card. Show the hand signal (thumb-up “good”, thumb-down “evil”) for the Goon’s current alignment.",
+    "firstNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Capanga: • O Capanga se torna do mesmo alinhamneto (bem/mal) desse jogador. • Informe ao Capanga o seu alinhamneto atual.",
     "otherNight": 100,
-    "otherNightReminder": "If a player used their character ability to choose the Goon: • The Goon becomes that player’s alignment. • Show the “You are” card, then the hand signal (thumb-up “good”, thumb-down “evil”) for the Goon’s current alignment.",
+    "otherNightReminder": "Se um jogador usou sua habilidade de personagem para escolher o Capanga: • O Capanga se torna do mesmo alinhamneto (bem/mal) desse jogador. • Informe ao Capanga o seu alinhamneto atual.",
     "reminders": [
       "Bêbado"
     ],
@@ -573,9 +573,9 @@
     "id": "lunatic",
     "edition": "bmr",
     "firstNight": 2,
-    "firstNightReminder": "If 7 or more players: Show the Lunatic a number of arbitrary “Minion“, players equal to the number of Minions in play. Show 3 character tokens of arbitrary Good characters. If the token received by the Lunatic is a Demon that would wake tonight: • Allow the Lunatic to do the Demon actions. Place their “attack” markers. Wake the Demon. Show the Demon’s real character token. Show them the Lunatic player. • If the Lunatic attacked players: Show the real demon each marked player. Remove any Lunatic “attack” markers.",
+    "firstNightReminder": "Se houver 7 ou mais jogadores: Informe ao Lunático os seus 'Lacaios'. Mostrar 3 Blefes de Personagens bons arbitrários. Se o Personagem recebido pelo Lunático for um Demônio que acordaria na primeira noite: • Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de 'ataque'. Acorde o demônio. Informe-o que ele é o demônio e o jogador que é o lunático. • Se o Lunatico atacou hoje: Informe ao demônio real os alvos do Lunático. Remova os marcadores de “ataque” do Lunatico.",
     "otherNight": 16,
-    "otherNightReminder": "Allow the Lunatic to do the actions of the Demon. Place their “attack” markers. If the Lunatic selected players: Wake the Demon. Show the “attack” marker, then point to each marked player. Remove any Lunatic “attack” markers.",
+    "otherNightReminder": "Permita que o Lunático faça as ações do Demônio. Coloque seus marcadores de 'ataque'. Se o Lunatico selecionou jogadores: Desperte o Demônio. Informe ao demônio real os alvos do Lunático. Remova os marcadores de “ataque” do Lunatico.",
     "reminders": [
       "Ataque 1",
       "Ataque 2",
@@ -591,9 +591,9 @@
     "id": "godfather",
     "edition": "bmr",
     "firstNight": 13,
-    "firstNightReminder": "Show each of the Outsider tokens in play.",
+    "firstNightReminder": "Informe ao Chefe da Máfia os personagens Forasteiros que estão em jogo.",
     "otherNight": 29,
-    "otherNightReminder": "If an Outsider died today: • The Godfather points to a player. That player dies.",
+    "otherNightReminder": "Se um Forasteiro morreu hoje: •  O Chefe da Máfia escolhe um jogador. Esse jogador morre.",
     "reminders": [
       "Morreu Hoje",
       "Morto"
