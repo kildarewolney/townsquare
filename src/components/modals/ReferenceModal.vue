@@ -25,6 +25,7 @@
         </span>
       </li>
     </ul>
+    for (team = "demon") {
     <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
       if (team = "demon"){
       <h4>{{ team }}</h4>
@@ -47,6 +48,7 @@
       </ul>
       }
     </div>
+}
   </Modal>
 </template>
 
