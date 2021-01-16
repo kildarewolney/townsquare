@@ -23,7 +23,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 16,
-    "otherNightReminder": "The Lycanthrope points to a living player: if good, they die and no one else can die tonight.",
+    "otherNightReminder": "O Lycanthrope escolhe um jogador vivo: se for bom, eles morre e ninguém mais pode morrer esta noite.",
     "reminders": ["Dead"],
     "setup": false,
     "ability": "Cada Noite*, escolha um jogador vivo: Se ele for do Bem, ele morre, mas só ele poderá morrer essa noite."
@@ -66,7 +66,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 22,
-    "firstNightReminder": ":eye: Show the finger signal (0, 1, 2, …) for the number of pairs of neighbouring evil players. :eye-slash:",
+    "firstNightReminder": ":eye: Mostra o valor (0, 1, 2, ...) para o número de pares de jogadores maus vizinhos. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
