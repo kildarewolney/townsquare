@@ -25,14 +25,16 @@
         </span>
       </li>
     </ul>
-    <div v-for="(teamRoles, cidadão) in rolesGrouped" :key="cidadão" :class="[cidadão]">
+    <div v-for="(teamRoles, cidadão) in rolesGrouped" :key="team" :class="[team]">
+      if (role.team = "demon"){
       <h4>{{ team }}</h4>
       <ul>
-        <li v-for="role in teamRoles" :class="[cidadão]" :key="role.id">
+        <li v-for="role in teamRoles" :class="[team]" :key="role.id">
           <span class="name">{{ role.name }}</span>
           <span
             class="icon"
-            v-if="role.id"
+            v-
+="role.id"
             :style="{
               backgroundImage: `url(${role.image ||
                 require('../../assets/icons/' + role.id + '.png')})`
@@ -44,6 +46,7 @@
           }}</span>
         </li>
       </ul>
+      }
     </div>
   </Modal>
 </template>
