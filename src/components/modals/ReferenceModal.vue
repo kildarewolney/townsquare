@@ -28,7 +28,7 @@
     <div v-for="(teamRoles, cidadão) in rolesGrouped" :key="cidadão" :class="[cidadão]">
       <h4>{{ team }}</h4>
       <ul>
-        <li v-for="role in teamRoles" :class="[team]" :key="role.id">
+        <li v-for="role in teamRoles" :class="[cidadão]" :key="role.id">
           <span class="name">{{ role.name }}</span>
           <span
             class="icon"
