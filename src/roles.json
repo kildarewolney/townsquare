@@ -14,19 +14,6 @@
     "ability": "Você começa sabendo que 1 dentre 2 jogadores é um cidadão específico."
   },
   {
-    "id": "lycanthrope",
-    "name": "Licantropo",
-    "edition": "",
-    "team": "townsfolk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 16,
-    "otherNightReminder": "O Licantropo escolhe um jogador vivo: se for bom, eles morre e ninguém mais pode morrer esta noite.",
-    "reminders": ["Dead"],
-    "setup": false,
-    "ability": "Cada Noite*, escolha um jogador vivo: Se ele for do Bem, ele morre, mas só ele poderá morrer essa noite."
-  },
-  {
     "id": "librarian",
     "name": "Bibliotecária",
     "edition": "tb",
@@ -238,19 +225,6 @@
     "ability": "Se você morrer por execução, seu time perde."
   },
   {
-    "id": "baron",
-    "name": "Barão",
-    "edition": "tb",
-    "team": "minion",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": true,
-    "ability": "Há 2 Forasteiros adicionais. [+2 Forasteiros]"
-  },
-  {
     "id": "poisoner",
     "name": "Envenenador",
     "edition": "tb",
@@ -290,6 +264,19 @@
     "ability": "Se ainda houver 5 ou mais jogadores não-viajantes vivos e o Demônio morrer, seu personagem é substituído pelo do Demônio."
   },
   {
+    "id": "baron",
+    "name": "Barão",
+    "edition": "tb",
+    "team": "minion",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": true,
+    "ability": "Há 2 Forasteiros adicionais. [+2 Forasteiros]"
+  },
+  {
     "id": "imp",
     "name": "Capeta",
     "edition": "tb",
@@ -301,6 +288,71 @@
     "reminders": ["Morto"],
     "setup": false,
     "ability": "Toda Noite*, escolha um jogador: ele morre imediatamente. Se você se matar desta forma, um Lacaio vivo substituíra o personagem dele pelo seu."
+  },
+  {
+    "id": "thief",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "The Thief points to a player. Put the Thief's “Negative vote” reminder by the chosen player's character token.",
+    "otherNight": 1,
+    "otherNightReminder": "The Thief points to a player. Put the Thief's “Negative vote” reminder by the chosen player's character token.",
+    "reminders": ["Voto Negativo"],
+    "setup": false,
+    "name": "Ladão",
+    "team": "traveler",
+    "ability": "Cada noite, escolha um jogador (você não pode escolher): O voto do escolhido conta negativamente amanhã."
+  },
+  {
+    "id": "bureaucrat",
+    "edition": "tb",
+    "firstNight": 1,
+    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's “Vote x3” reminder by the chosen player's character token.",
+    "otherNight": 1,
+    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's “Vote x3” reminder by the chosen player's character token.",
+    "reminders": ["Voto x3"],
+    "setup": false,
+    "name": "Burocrata",
+    "team": "traveler",
+    "ability": "Cada noite, escolha um jogador (você não pode se escolher): O voto do escolhido conta como 3 votos amanhã."
+  },
+  {
+    "id": "gunslinger",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Pistoleiro",
+    "team": "traveler",
+    "ability": "A cada dia, após a contagem da primeira votação, você pode escolher um jogador que votou: ele morre."
+  },
+  {
+    "id": "scapegoat",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Bode expiatório",
+    "team": "traveler",
+    "ability": "Se um jogador do seu alinhamento for executado, você pode ser executado em seu lugar."
+  },
+  {
+    "id": "beggar",
+    "edition": "tb",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Mendigo",
+    "team": "traveler",
+    "ability": "Você deve usar um token de voto para votar. Jogadores mortos podem escolher dar a você os seus. Nesse caso, você aprende o alinhamento deles."
   },
   {
     "id": "grandmother",
@@ -586,22 +638,6 @@
     "ability": "Se o Demônio morrer por execução, o jogo continua por mais 1 dia. No dia seguinte, se um jogador for executado o time dele perde."
   },
   {
-    "id": "po",
-    "edition": "bmr",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 22,
-    "otherNightReminder": "Se o Po não escolheu ninguém na noite anterior: O Po escolhe três jogadores. Caso contrário: O Po pode recusar usar sua habilidade ou escolher um jogador. Os jogadores escolhidos (se houver) morrem na ordem escolhida.",
-    "reminders": ["Morte 1",
-      "Morte 2",
-      "Morte 3",
-      "Ataque x3"],
-    "setup": false,
-    "name": "Po",
-    "team": "demon",
-    "ability": "Toda Noite*, se quiser, escolha um jogador: ele morre. Se, por qualquer motivo, você não escolheu na Noite passada, escolha 3 jogadores: eles morrem na ordem que você escolheu."
-  },
-  {
     "id": "zombuul",
     "edition": "bmr",
     "firstNight": 0,
@@ -643,6 +679,22 @@
     "name": "Shabaloth",
     "team": "demon",
     "ability": "Toda Noite*, escolha dois jogadores: eles morrem na ordem que você escolheu. Um jogador escolhido na Noite anterior pode ser ressuscitado."
+  },
+  {
+    "id": "po",
+    "edition": "bmr",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 22,
+    "otherNightReminder": "Se o Po não escolheu ninguém na noite anterior: O Po escolhe três jogadores. Caso contrário: O Po pode recusar usar sua habilidade ou escolher um jogador. Os jogadores escolhidos (se houver) morrem na ordem escolhida.",
+    "reminders": ["Morte 1",
+      "Morte 2",
+      "Morte 3",
+      "Ataque x3"],
+    "setup": false,
+    "name": "Po",
+    "team": "demon",
+    "ability": "Toda Noite*, se quiser, escolha um jogador: ele morre. Se, por qualquer motivo, você não escolheu na Noite passada, escolha 3 jogadores: eles morrem na ordem que você escolheu."
   },
   {
     "id": "clockmaker",
@@ -976,71 +1028,6 @@
     "ability": "Toda Noite*, você escolhe um jogador: ele morre imediatamente. Habilidades do Bem geram informações falsas. Todo Dia, se ninguém for executado, o Mal vence."
   },
   {
-    "id": "scapegoat",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "name": "Bode expiatório",
-    "team": "traveler",
-    "ability": "Se um jogador do seu alinhamento for executado, você pode ser executado em seu lugar."
-  },
-  {
-    "id": "gunslinger",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "name": "Pistoleiro",
-    "team": "traveler",
-    "ability": "A cada dia, após a contagem da primeira votação, você pode escolher um jogador que votou: ele morre."
-  },
-  {
-    "id": "beggar",
-    "edition": "tb",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "setup": false,
-    "name": "Mendigo",
-    "team": "traveler",
-    "ability": "Você deve usar um token de voto para votar. Jogadores mortos podem escolher dar a você os seus. Nesse caso, você aprende o alinhamento deles."
-  },
-  {
-    "id": "bureaucrat",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's “Vote x3” reminder by the chosen player's character token.",
-    "otherNight": 1,
-    "otherNightReminder": "The Bureaucrat points to a player. Put the Bureaucrat's “Vote x3” reminder by the chosen player's character token.",
-    "reminders": ["Voto x3"],
-    "setup": false,
-    "name": "Burocrata",
-    "team": "traveler",
-    "ability": "Cada noite, escolha um jogador (você não pode se escolher): O voto do escolhido conta como 3 votos amanhã."
-  },
-  {
-    "id": "thief",
-    "edition": "tb",
-    "firstNight": 1,
-    "firstNightReminder": "The Thief points to a player. Put the Thief's “Negative vote” reminder by the chosen player's character token.",
-    "otherNight": 1,
-    "otherNightReminder": "The Thief points to a player. Put the Thief's “Negative vote” reminder by the chosen player's character token.",
-    "reminders": ["Voto Negativo"],
-    "setup": false,
-    "name": "Ladão",
-    "team": "traveler",
-    "ability": "Cada noite, escolha um jogador (você não pode escolher): O voto do escolhido conta negativamente amanhã."
-  },
-  {
     "id": "apprentice",
     "edition": "bmr",
     "firstNight": 1,
@@ -1189,6 +1176,19 @@
     "name": "Balonista",
     "team": "townsfolk",
     "ability": "Toda noite, você descobre um jogador de cada tipo de personagem, até que não haja mais tipos para descobrir. [+1 Forasteiro]"
+  },
+  {
+    "id": "lycanthrope",
+    "name": "Licantropo",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 16,
+    "otherNightReminder": "O Licantropo escolhe um jogador vivo: se for bom, eles morre e ninguém mais pode morrer esta noite.",
+    "reminders": ["Dead"],
+    "setup": false,
+    "ability": "Cada Noite*, escolha um jogador vivo: Se ele for do Bem, ele morre, mas só ele poderá morrer essa noite."
   },
   {
     "id": "amnesiac",
