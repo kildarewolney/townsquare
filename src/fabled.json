@@ -7,7 +7,7 @@
     "setup": false,
     "name": "Doomsayer",
     "team": "fabled",
-    "ability": "Se 4 ou mais jogadores estiverem vivos, cada jogador vivo pode, uma vez por jogo, publicamente escolher que alguém do seu alinhamento morre."
+    "ability": "Se 4 ou mais jogadores estiverem vivos, cada jogador vivo pode, uma vez por jogo, invocar o Doomsayer publicamente. Alguém do seu alinhamento (Bem/Mal) morre."
   },
   {
     "id": "angel",
@@ -47,7 +47,7 @@
     "setup": false,
     "name": "Revolucionário",
     "team": "fabled",
-    "ability": "2 jogadores vizinhos são conhecidos por terem o mesmo alinhamento. Uma vez por jogo, um deles registra falsamente."
+    "ability": "2 jogadores vizinhos são conhecidos por terem o mesmo alinhamento. Uma vez por jogo, um deles é registrado falsamente."
   },
   {
     "id": "fiddler",
@@ -103,7 +103,7 @@
     "id": "spiritofivory",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["No extra evil"],
+    "reminders": ["Sem Jogador mal extra"],
     "setup": false,
     "name": "Espírito de marfim",
     "team": "fabled",
@@ -123,7 +123,7 @@
     "id": "stormcatcher",
     "firstNightReminder": "Mark a good player as \"Safe\". Wake each evil player and show them the marked player.",
     "otherNightReminder": "",
-    "reminders": ["Safe"],
+    "reminders": ["Seguro"],
     "setup": false,
     "name": "Storm Catcher",
     "team": "fabled",
@@ -133,10 +133,10 @@
     "id": "deusexfiasco",
     "firstNightReminder": "",
     "otherNightReminder": "",
-    "reminders": ["Whoops"],
+    "reminders": ["Ops"],
     "setup": false,
     "name": "Deus ex Fiasco",
     "team": "fabled",
-    "ability": "Uma vez por jogo, o Narrador cometerá um \"erro \", corrigirá e admitirá publicamente."
+    "ability": "Uma vez por jogo, o Narrador cometerá um 'erro', corrigirá e admitirá publicamente."
   }
 ]
