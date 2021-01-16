@@ -25,7 +25,7 @@
         </span>
       </li>
     </ul>
-    <div v-for="(teamRoles, cidadão) in rolesGrouped" :key="team" :class="[team]">
+    <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
       if (role.team = "demon"){
       <h4>{{ team }}</h4>
       <ul>
