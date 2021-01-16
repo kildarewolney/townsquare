@@ -725,7 +725,7 @@
     "setup": false,
     "name": "Relojoeiro",
     "team": "townsfolk",
-    "ability": "Na priemira Noite, você descobre a distância entre o Demônio e seu Lacaio mais próximo."
+    "ability": "Na primeira Noite, você descobre a distância entre o Demônio e seu Lacaio mais próximo."
   },
   {
     "id": "dreamer",
@@ -857,7 +857,7 @@
     "setup": false,
     "name": "Filósofo",
     "team": "townsfolk",
-    "ability": "Uma vez por jogo, durante a Noite, você pode escolher um personagem do bem: você se torna ele. Se alguém já é for esse personagem, fica bêbado até você morrer."
+    "ability": "Uma vez por jogo, durante a Noite, você pode escolher um personagem do bem: você ganha a habilidade dele. Se alguém já é for esse personagem, fica bêbado até você morrer."
   },
   {
     "id": "artist",
