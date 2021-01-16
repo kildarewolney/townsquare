@@ -5,7 +5,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 19,
-    "firstNightReminder": ":eye: Show the character token of a Townsfolk in play. Point to two players, one of which is that character. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre um Token de Personagem de Cidadão. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -34,7 +34,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 20,
-    "firstNightReminder": ":eye: Show the character token of a Outsider in play. Point to two players, one of which is that character. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre um Token de Personagem de Forasteiro. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -50,7 +50,7 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 21,
-    "firstNightReminder": ":eye: Show the character token of a Minion in play. Point to two players, one of which is that character. :eye-slash:",
+    "firstNightReminder": ":eye: Mostre um Token de Personagem de Lacaio. Aponte para dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
