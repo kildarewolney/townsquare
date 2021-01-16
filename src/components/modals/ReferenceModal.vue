@@ -25,10 +25,10 @@
         </span>
       </li>
     </ul>
-    <div v-for="(teamRoles, team.cidadão) in rolesGrouped" :key="team" :class="[team.cidadão]">
-      <h4>{{ team.cidadão }}</h4>
+    <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
+      <h4>{{ cidadão }}</h4>
       <ul>
-        <li v-for="role in teamRoles" :class="[team.cidadão]" :key="role.id">
+        <li v-for="role in teamRoles" :class="[team]" :key="role.id">
           <span class="name">{{ role.name }}</span>
           <span
             class="icon"
