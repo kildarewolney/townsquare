@@ -1297,9 +1297,9 @@
     "id": "balloonist",
     "edition": "",
     "firstNight": 30,
-    "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's \"Seen\" reminder next to that character.",
+    "firstNightReminder": "Escolha um tipo de personagem. Aponte para um jogador cujo personagem é desse tipo. Coloque o lembrete 'Visto' do Balonista ao lado desse personagem.",
     "otherNight": 47,
-    "otherNightReminder": "Choose a character type you have not chosen yet. Point to a player whose character is of that type, if there are any. Place the Balloonist's \"Seen\" reminder next to that character.",
+    "otherNightReminder": "Escolha um tipo de personagem que você ainda não escolheu. Aponte para um jogador cujo personagem é desse tipo, se houver algum. Coloque o lembrete 'Visto' do Balonista ao lado desse personagem.",
     "reminders": ["Visto Cidadão",
         "Visto Forasteiro",
         "Visto Lacaio",
@@ -1314,9 +1314,9 @@
     "id": "amnesiac",
     "edition": "",
     "firstNight": 6,
-    "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "firstNightReminder": "Decida toda a habilidade do Esquecido. Se a habilidade do Esquecido faz com que eles acordem esta noite: Acorde o Esquecido e execute sua habilidade.",
     "otherNight": 4,
-    "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
+    "otherNightReminder": "Se a habilidade do Esquecido faz com que eles acordem esta noite: Acorde o Esquecido e execute sua habilidade.",
     "reminders": [],
     "setup": false,
     "name": "Esquecido",
@@ -1373,7 +1373,7 @@
     "id": "widow",
     "edition": "",
     "firstNight": 10,
-    "firstNightReminder": "Show the Grimoire to the Widow for as long as they need. The Widow points to a player. That player is poisoned. Wake a good player. Show the “These characters are in play” card, then the Widow character token.",
+    "firstNightReminder": "Mostre o Grimorio para a viúva pelo tempo que ela precisar. A viúva aponta para um jogador. Esse jogador está envenenado. Acorde um bom jogador. Mostre a carta "Esses personagens estão em jogo" e, em seguida, o token de personagem Viúva. Caso a Viúva se escolha, nenhum jogador bom deve ser acordado para revelar que a viúva está em jogo.",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [
@@ -1389,9 +1389,9 @@
     "id": "leviathan",
     "edition": "",
     "firstNight": 100,
-    "firstNightReminder": "Place the Leviathan “Day 1” marker. Announce “The Leviathan is in play; this is Day 1.”.",
+    "firstNightReminder": "Coloque o marcador Leviathan “Dia 1”. Anuncie “O Leviathan está em jogo, este é o primeiro dia ”.",
     "otherNight": 100,
-    "otherNightReminder": "Place the next Leviathan “Day n” marker, where “n” is the day number. Announce “The Leviathan is in play; this is Day n.”.",
+    "otherNightReminder": "Coloque o próximo marcador de Leviatã “Dia n”, onde “n” é o número do dia. Anuncie “O Leviathan está em jogo, este é o dia n.”.",
     "reminders": [
       "Executado e do Bem",
       "Dia 1",
@@ -1411,7 +1411,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 31,
-    "otherNightReminder": "If either good living neighbor is drunk or poisoned, the Acrobat dies.",
+    "otherNightReminder": "Se um dos vizinhos está bêbado ou envenenado, o Acrobata morre.",
     "reminders": [
       "Morto"
     ],
@@ -1424,9 +1424,9 @@
     "id": "bountyhunter",
     "edition": "",
     "firstNight": 31,
-    "firstNightReminder": "Point to a player that is evil.",
+    "firstNightReminder": "Aponte para um jogador que é mau.",
     "otherNight": 48,
-    "otherNightReminder": "If the evil player that was known by the Bounty Hunter died since the previous night: Point to another player that is evil.",
+    "otherNightReminder": "Se o jogador malvado conhecido pelo Caçador de Recompensas morreu desde a noite anterior: Aponte para outro jogador que seja mau.",
     "reminders": [
       "Known"
     ],
@@ -1439,9 +1439,9 @@
     "id": "cultleader",
     "edition": "",
     "firstNight": 32,
-    "firstNightReminder": "The Cult Leader becomes the alignment of an alive neighbor: Show the “You are” card. Show the hand signal (thumb-up “good”, thumb-down “evil”) for the Cult Leader's current alignment.",
+    "firstNightReminder": "O Líder da Seita se torna o alinhamento de um vizinho vivo: Mostre a carta “Você é”. Mostre o sinal de mão (polegar para cima “bom”, polegar para baixo “mau”) para o alinhamento atual do líder da Seita.",
     "otherNight": 49,
-    "otherNightReminder": "The Cult Leader becomes the alignment of an alive neighbor: Show the “You are” card. Show the hand signal (thumb-up “good”, thumb-down “evil”) for the Cult Leader's current alignment.",
+    "otherNightReminder": "O Líder da Seita se torna o alinhamento de um vizinho vivo: Mostre a carta “Você é”. Mostre o sinal de mão (polegar para cima “bom”, polegar para baixo “mau”) para o alinhamento atual do líder da Seita.",
     "reminders": [],
     "setup": false,
     "name": "Líder da Seita",
@@ -1452,9 +1452,9 @@
     "id": "preacher",
     "edition": "",
     "firstNight": 7,
-    "firstNightReminder": "The Preacher points to a player. If that player is a Minion: Wake the Minion. Show the Preacher token. The Minion now does not have an ability anymore.",
+    "firstNightReminder": "O Missionário aponta um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Mostre a ficha do Missionário. O Lacaio agora não tem mais uma habilidade.",
     "otherNight": 5,
-    "otherNightReminder": "The Preacher points to a player. If that player is a Minion: Wake the Minion. Show the Preacher token. The Minion now does not have an ability anymore.",
+    "otherNightReminder": "O Missionário aponta um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Mostre a ficha do Missionário. O Lacaio agora não tem mais uma habilidade.",
     "reminders": [
       "Sem habilidade"
     ],
@@ -1480,9 +1480,9 @@
     "id": "lilmonsta",
     "edition": "",
     "firstNight": 8,
-    "firstNightReminder": "Wake all Minions. The Minions point to a player that receives the Lil' Monsta token and becomes the Demon.",
+    "firstNightReminder": "Acorde todos os Minions. Os Minions apontam para um jogador que recebe o token Lil 'Monsta e se torna o Demônio.",
     "otherNight": 27,
-    "otherNightReminder": "Wake all Minions. The Minions point to a player that receives the Lil' Monsta token and becomes the Demon. Choose a player that dies.",
+    "otherNightReminder": "Acorde todos os Minions. Os Minions apontam para um jogador que recebe o token Lil 'Monsta e se torna o Demônio. Escolha um jogador que morre.",
     "reminders": [],
     "remindersGlobal": [
       "Morto",
@@ -1497,9 +1497,9 @@
     "id": "general",
     "edition": "",
     "firstNight": 34,
-    "firstNightReminder": "Show the hand signal (thumb-up “good”, thumb-down “evil”, thumb-sideways “neither”) for the alignment that you believe is winning.",
+    "firstNightReminder": "Mostre o sinal de mão (polegar para cima “bom”, polegar para baixo “mau”, polegar para o lado “nenhum”) para o alinhamento que você acredita estar ganhando.",
     "otherNight": 52,
-    "otherNightReminder": "Show the hand signal (thumb-up “good”, thumb-down “evil”, thumb-sideways “neither”) for the alignment that you believe is winning.",
+    "otherNightReminder": "Mostre o sinal de mão (polegar para cima “bom”, polegar para baixo “mau”, polegar para o lado “nenhum”) para o alinhamento que você acredita estar ganhando.",
     "reminders": [],
     "remindersGlobal": [],
     "setup": false,
@@ -1508,3 +1508,4 @@
     "ability": "Cada noite, você descobre qual tendência o Storyteller acredita que está ganhando: Bem, Mal ou Nenhum."
   }
 ]
+
