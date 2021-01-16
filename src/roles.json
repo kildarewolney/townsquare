@@ -3,7 +3,7 @@
     "id": "washerwoman",
     "name": "Lavadeira",
     "edition": "tb",
-    "team": "townsfolk",
+    "team": "cidadão",
     "firstNight": 19,
     "firstNightReminder": ":eye: Informe um Personagem Cidadão e dois jogadores, um deles deve ser o personagem. :eye-slash:",
     "otherNight": 0,
