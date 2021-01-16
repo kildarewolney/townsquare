@@ -92,9 +92,9 @@
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 24,
-    "firstNightReminder": ":eye: The Fortune Teller points to two players. Give the head signal (nod yes, shake no) for whether one of those players is the Demon. :eye-slash:",
+    "firstNightReminder": ":eye: O Vidente escolhe dois jogadores. Resnponda com 'Sim' ou 'não' caso um desses jogadores é o Demônio. :eye-slash:",
     "otherNight": 39,
-    "otherNightReminder": ":eye: The Fortune Teller points to two players. Show the head signal (nod “yes”, shake “no”) for whether one of those players is the Demon. :eye-slash:",
+    "otherNightReminder": ":eye: O Vidente escolhe dois jogadores. Resnponda com 'Sim' ou 'não' caso um desses jogadores é o Demônio. :eye-slash:",
     "reminders": [
       "Falso"
     ],
@@ -109,7 +109,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 40,
-    "otherNightReminder": ":question-circle: If a player was executed today: :eye: Show that player’s character token. :eye-slash:",
+    "otherNightReminder": ":question-circle: Se um jogador foi executado hoje: :eye: Mostre o Token do Personagem desse jogador. :eye-slash:",
     "reminders": [
       "Executado"
     ],
