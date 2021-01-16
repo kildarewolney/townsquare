@@ -120,17 +120,17 @@
     "ability": "Se você morrer durante a Noite, acordará para escolher um jogador: Você descobre o personagem dele."
   },
   {
-    "id": "mayor",
-    "name": "Prefeito",
+    "id": "virgin",
+    "name": "Virgem",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [],
+    "reminders": ["Usado"],
     "setup": false,
-    "ability": "Se houver apenas 3 jogadores vivos e não houver execução, seu time vence. Durante a Noite, sua morte pode ser substituída pela morte de outro jogador."
+    "ability": "Apenas na primeira vez que você for nomeado, se o nomeador for um Cidadão, ele é executado imediatamente. (A Manhã é encerrada, como ocorre com qualquer execução)"
   },
   {
     "id": "slayer",
@@ -159,17 +159,17 @@
     "ability": "Você é imune ao Demônio."
   },
   {
-    "id": "virgin",
-    "name": "Virgem",
+    "id": "mayor",
+    "name": "Prefeito",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Usado"],
+    "reminders": [],
     "setup": false,
-    "ability": "Apenas na primeira vez que você for nomeado, se o nomeador for um Cidadão, ele é executado imediatamente. (A Manhã é encerrada, como ocorre com qualquer execução)"
+    "ability": "Se houver apenas 3 jogadores vivos e não houver execução, seu time vence. Durante a Noite, sua morte pode ser substituída pela morte de outro jogador."
   },
   {
     "id": "butler",
