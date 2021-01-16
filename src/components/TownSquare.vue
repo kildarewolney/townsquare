@@ -30,7 +30,7 @@
       :class="{ closed: !isBluffsOpen }"
     >
       <h3>
-        <span v-if="session.isSpectator">Other characters</span>
+        <span v-if="session.isSpectator">Outros Personagens</span>
         <span v-else>Blefes do Demônio</span>
         <font-awesome-icon icon="times-circle" @click.stop="toggleBluffs" />
         <font-awesome-icon icon="plus-circle" @click.stop="toggleBluffs" />
@@ -509,7 +509,7 @@ export default {
       rgba(0, 0, 0, 0.5) 20%
     );
     &:before {
-      content: "First Night";
+      content: "Primeira Noite";
     }
     &:after {
       border-left-color: $townsfolk;
@@ -522,7 +522,7 @@ export default {
     left: 120%;
     background: linear-gradient(to right, $demon 0%, rgba(0, 0, 0, 0.5) 20%);
     &:before {
-      content: "Other Nights";
+      content: "Outras Noites";
     }
     &:after {
       right: 100%;
