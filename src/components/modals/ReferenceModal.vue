@@ -1,4 +1,4 @@
-<template>
+1<template>
   <Modal
     class="characters"
     @close="toggleModal('reference')"
