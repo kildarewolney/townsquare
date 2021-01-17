@@ -83,13 +83,13 @@ export default {
             id: "evil",
             name: "Minion info",
             firstNight: 2,
-            team: "minion"
+            team: "lacaio"
           },
           {
             id: "evil",
             name: "Demon info & bluffs",
             firstNight: 4,
-            team: "demon"
+            team: "demônio"
           }
         );
       }
@@ -189,7 +189,7 @@ h4 {
     }
   }
 }
-.townsfolk {
+.cidadão {
   .name,
   .player,
   h4 {
@@ -200,7 +200,7 @@ h4 {
     }
   }
 }
-.outsider {
+.forasteiro {
   .name,
   .player,
   h4 {
@@ -211,7 +211,7 @@ h4 {
     }
   }
 }
-.minion {
+.lacaio {
   .name,
   .player,
   h4 {
@@ -222,7 +222,7 @@ h4 {
     }
   }
 }
-.demon {
+.demônio {
   .name,
   .player,
   h4 {
