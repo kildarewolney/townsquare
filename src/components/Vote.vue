@@ -75,14 +75,14 @@
             @click="vote(false)"
             :class="{ disabled: !currentVote }"
           >
-            ABAIXAR a Mão
+            Contra
           </div>
           <div
             class="button demon"
             @click="vote(true)"
             :class="{ disabled: currentVote }"
           >
-            LEVANTAR a Mão
+            A Favor
           </div>
         </div>
       </template>
