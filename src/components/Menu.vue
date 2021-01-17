@@ -87,10 +87,10 @@
 
         <template v-if="tab === 'session'">
           <li class="headline" v-if="session.sessionId">
-            {{ session.isSpectator ? "Playing" : "Hosting" }}
+            {{ session.isSpectator ? "Jogando" : "Hosteando" }}
           </li>
           <li class="headline" v-else>
-            Live Session
+            Sessão
           </li>
           <li @click="hostSession" v-if="!session.sessionId">
             Host (Narrador)<em>[H]</em>
@@ -114,10 +114,10 @@
             v-if="session.voteHistory.length"
             @click="toggleModal('voteHistory')"
           >
-            Histórico de nomeação<em>[V]</em>
+            Histórico de Nomeação<em>[V]</em>
           </li>
           <li @click="leaveSession" v-if="session.sessionId">
-            Sair da sessão
+            Sair da Sessão
             <em>{{ session.sessionId }}</em>
           </li>
         </template>
@@ -172,7 +172,7 @@
             <em>[N]</em>
           </li>
           <li @click="toggleModal('gameState')">
-            Game State JSON
+            Arquivo JSON
             <em><font-awesome-icon icon="file-code"/></em>
           </li>
           <li>
