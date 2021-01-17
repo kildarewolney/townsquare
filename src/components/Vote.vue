@@ -25,7 +25,7 @@
       <div v-if="session.isVoteInProgress || session.lockedVote > 1">
         <em class="blue" v-if="voters.length">{{ voters.join(", ") }} </em>
         <span v-else>ninguém</span>
-        levantou a <em>MÃO</em>
+        a <em>Favor</em>
       </div>
 
       <template v-if="!session.isSpectator">
