@@ -14,17 +14,17 @@
         <em class="blue">
           {{ voters.length }} voto{{ voters.length !== 1 ? "s" : "" }}
         </em>
-        em favor
+        a Favor
         <em>(maioria é {{ Math.ceil(alive / 2) }})</em>
       </template>
       <template v-else>
         <em>{{ Math.ceil(players.length / 2) }} votos</em> requeridos para a maioria
-        <em>maioria</em>.
+        <em>Maioria</em>.
       </template>
 
       <div v-if="session.isVoteInProgress || session.lockedVote > 1">
         <em class="blue" v-if="voters.length">{{ voters.join(", ") }} </em>
-        <span v-else>ninguém</span>
+        <span v-else>Ninguém</span>
         a <em>Favor</em>
       </div>
 
