@@ -1,4 +1,4 @@
-1<template>
+<template>
   <Modal
     class="characters"
     @close="toggleModal('reference')"
@@ -25,7 +25,7 @@
         </span>
       </li>
     </ul>
-    <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
+    <div v-for=" cidadão in team" :key="team" :class="[team]">
       <h4>{{ team }}</h4>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
