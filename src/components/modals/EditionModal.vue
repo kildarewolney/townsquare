@@ -113,7 +113,7 @@ export default {
         ],
         [
           "Trouble with Violets",
-          "https://gist.githubusercontent.com/botcbr/a9c768df3add03194b57a834f40e0069/raw/981bfe29ace12bff7483f5df2006126b80b735bf/TroubleWithViolets"
+          "https://gist.githubusercontent.com/botcbr/a9c768df3add03194b57a834f40e0069/raw/a2f5b1d2c17ce21f80c96ab84405253757b2a104/TroubleWithViolets"
         ],
         [
           "On Thin Ice (5 ou 6 jogadores)",
