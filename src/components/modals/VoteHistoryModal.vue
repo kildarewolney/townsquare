@@ -19,7 +19,7 @@
           <td>Nomiado</td>
           <td>Tipo</td>
           <td>Maioria</td>
-          <td><font-awesome-icon icon="hand-paper" /> Levantou a Mão</td>
+          <td><font-awesome-icon icon="hand-paper" /> A Favor</td>
         </tr>
       </thead>
       <tbody>
