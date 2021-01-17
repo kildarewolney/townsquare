@@ -100,24 +100,32 @@ export default {
           "https://gist.githubusercontent.com/bra1n/8a5ec41a7bbf945f6b7dfc1cef72b569/raw/fed370d55554e0d83e9d56023c230099f41d0660/catfishing.json"
         ],
         [
-          "On Thin Ice (Teensyville)",
+          "Madness",
+          "https://gist.githubusercontent.com/botcbr/3397ae5dd4f9747cf4c88823522e0b18/raw/bd19ff1e93d22997d756738b8877729be2b8777b/Madness.json"
+        ],
+        [
+          "The Power of the Death",
+          "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/82647742d27a8352acadd0b3634e03d9dd72599e/The%2520Power%2520of%2520Death.txt"
+        ],
+        [
+          "Folia",
+          "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/d9995e6b4652b128b440f15b6f0d31cd7061fb2d/Folia.txt"
+        ],
+        [
+          "On Thin Ice (5 ou 6 jogadores)",
           "https://gist.githubusercontent.com/bra1n/8dacd9f2abc6f428331ea1213ab153f5/raw/0cacbcaf8ed9bddae0cca25a9ada97e9958d868b/on-thin-ice.json"
         ],
         [
-          "Race To The Bottom (Teensyville)",
+          "Race To The Bottom (5 ou 6 jogadores)",
           "https://gist.githubusercontent.com/bra1n/63e1354cb3dc9d4032bcd0623dc48888/raw/5acb0eedcc0a67a64a99c7e0e6271de0b7b2e1b2/race-to-the-bottom.json"
         ],
         [
-          "Frankenstein's Mayor by Ted (Teensyville)",
+          "Frankenstein's Mayor by Ted (5 ou 6 jogadores)",
           "https://gist.githubusercontent.com/bra1n/32c52b422cc01b934a4291eeb81dbcee/raw/5bf770693bbf7aff5e86601c82ca4af3222f4ba6/Frankensteins_Mayor_by_Ted.json"
         ],
         [
-          "Vigormortis High School (Teensyville)",
+          "Vigormortis High School (5 ou 6 jogadores)",
           "https://gist.githubusercontent.com/bra1n/1f65bd4a999524719d5dabe98c3c2d27/raw/22bbec6bf56a51a7459e5ae41ed47e41971c5445/VigormortisHighSchool.json"
-        ],
-        [
-          "Madness",
-          "https://gist.githubusercontent.com/botcbr/3397ae5dd4f9747cf4c88823522e0b18/raw/909544ef1d76d940150b87463cf0d384cb72ca98/gistfile1.json"
         ]
       ]
     };
