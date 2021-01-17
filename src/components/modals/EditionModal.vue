@@ -105,7 +105,7 @@ export default {
         ],
         [
           "The Power of the Death",
-          "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/b826d04999f90dc6463e39c6c21aae5b374d747b/The%2520Power%2520of%2520Death.txt"
+          "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/7573c8953b789774eff1812a4f3afabca146da5b/The%2520Power%2520of%2520Death.txt"
         ],
         [
           "Folia 5.0",
