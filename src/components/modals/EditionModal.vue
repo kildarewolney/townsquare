@@ -109,7 +109,7 @@ export default {
         ],
         [
           "Folia 5.1 Por: Kamekura",
-          "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/f3219865864aec70027ecd2d9368c2d2452c96d9/Folia.txt"
+          "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/b35060c882c991661d43d99b9014e3128744388b/Folia.txt"
         ],
         [
           "Trouble with Violets",
