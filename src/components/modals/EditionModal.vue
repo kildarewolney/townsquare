@@ -42,10 +42,10 @@
       <a
         href="https://github.com/bra1n/townsquare#custom-characters"
         target="_blank"
-        >the documentation</a
+        >a Documentação</a
       >
       sobre como escrever um arquivo de definição de caractere personalizado.
-      <b>Only load custom JSON files from sources that you trust!</b>
+      <b>Carregue apenas arquivos JSON personalizados de fontes em que você confia!</b>
       <h3>Alguns scripts personalizados populares:</h3>
       <ul class="scripts">
         <li
