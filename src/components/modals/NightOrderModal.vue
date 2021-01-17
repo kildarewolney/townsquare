@@ -81,13 +81,13 @@ export default {
         rolesFirstNight.push(
           {
             id: "evil",
-            name: "Minion info",
+            name: "Informação dos Lacaios",
             firstNight: 2,
             team: "lacaio"
           },
           {
             id: "evil",
-            name: "Demon info & bluffs",
+            name: "Informação do Demônio e Blefes",
             firstNight: 4,
             team: "demônio"
           }
