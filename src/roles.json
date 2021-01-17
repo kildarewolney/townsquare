@@ -1162,10 +1162,10 @@
     "edition": "",
     "team": "cidadão",
     "firstNight": 31,
-    "firstNightReminder": "Informe ao Caçador de Recompensas um jogador que é mau.",
+    "firstNightReminder": "Antes da partida começar, um cidadão é escolhido como do mal e um dos personagens do mal é escolhido como alvo do Caçador de Recompensas. Informe ao cidadão do mal o seu alinhamento no inicio da Primeira Noite. Então mesmo que o Caçador de Recompensas esteja bêbado/envenenado na primeira noite ainda vai ter um personagem alvo. Informe ao Caçador de Recompensas qual jogador é seu alvo. Caso o Caçador de Recompensas esteja bêbado/envenenado na primeira noite informe-o um jogador que não seja o seu alvo.",
     "otherNight": 54,
-    "otherNightReminder": "Se o jogador do mal conhecido pelo Caçador de Recompensas morreu desde a noite anterior: Informe-o um jogador que é mau.",
-    "reminders": ["Known"],
+    "otherNightReminder": "Se o alvo do Caçador de Recompensas morreu desde a noite anterior: Informe-o seu novo alvo. Caso o jogador marcado como “Alvo” se tornar bom, mova o marcador de “Alvo” para um jogador da equipe do mal e desperte o Caçador de Recompensas na próxima oportunidade para ele aprender isso.",
+    "reminders": ["Alvo"],
     "setup": true,
     "ability": "Você começa o jogo sabendo quem é 1 jogador do mal. Se esse jogador do mal morrer, você descobre outro nesta noite. [1 Cidadão é Mal]"
   },
@@ -1175,12 +1175,12 @@
     "edition": "",
     "team": "cidadão",
     "firstNight": 7,
-    "firstNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade.",
+    "firstNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
     "otherNight": 4,
-    "otherNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade.",
+    "otherNightReminder": "O Missinário escolhe um jogador. Se esse jogador for um Lacaio: Desperte o Lacaio. Informe-o que foi escolhido pelo Missionário. O Lacaio agora não tem mais uma habilidade. Caso o Missionário fique bêbado/envenenado/morra o Lacaio volta a ter sua habilidade até que o Missionário fique sóbrio novamente.",
     "reminders": ["Sem habilidade"],
     "setup": false,
-    "ability": "Toda Noite, escolha um jogador: Caso seja um Lacaio, ele saberá. Todos os Lacaios escolhidos perdem a habilidade."
+    "ability": "Toda Noite, escolha um jogador: Caso seja um Lacaio, ele saberá que foi escolhido. Todos os Lacaios escolhidos perdem a habilidade."
   },
   {
     "id": "general",
@@ -1218,9 +1218,9 @@
     "edition": "",
     "team": "cidadão",
     "firstNight": 32,
-    "firstNightReminder": "O Líder da Seita se torna o alinhamento de um vizinho vivo: Informe-o com 'Bem' ou 'Mal' para o alinhamento atual do líder da seita",
+    "firstNightReminder": "Escolha arbitraiamente um vizinho vivo do Líder da Seita, O alinhamento dele agora é igual ao do jogador escolhido. Se o Líder da Seita mudou o seu alinhamento, acorde-o e informe-o o seu alinhamento Atual.",
     "otherNight": 55,
-    "otherNightReminder": "O Líder da Seita se torna o alinhamento de um vizinho vivo: Informe-o com 'Bem' ou 'Mal' para o alinhamento atual do líder da seita.",
+    "otherNightReminder": "Escolha arbitraiamente um vizinho vivo do Líder da Seita, O alinhamento dele agora é igual ao do jogador escolhido. Se o Líder da Seita mudou o seu alinhamento, acorde-o e informe-o o seu alinhamento Atual.",
     "reminders": [],
     "setup": false,
     "ability": "A cada noite o seu alinhamento (bem/mal) será igual a um de seus vizinhos vivos. Se todos os jogadores do bem aderirem a seita, seu time vence."
@@ -1233,7 +1233,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 16,
-    "otherNightReminder": "O Licantropo escolhe um jogador vivo: se for bom, eles morre e ninguém mais pode morrer esta noite.",
+    "otherNightReminder": "O Licantropo escolhe um jogador vivo: se for bom, eles morre e ninguém mais pode morrer esta noite. Se por algum motivo o jogador escolhido for do bem e não morreu, a habilidade do Licantropo não impede alguém de morrer esta noite.",
     "reminders": ["Dead"],
     "setup": false,
     "ability": "Cada Noite*, escolha um jogador vivo: Se ele for do Bem, ele morre, mas só ele poderá morrer essa noite."
@@ -1302,7 +1302,7 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "Se você for o maior responsável pela derrota do seu time, o seu alinhamento (bem/mal) muda e você vence, mesmo estando morto."
+    "ability": "Se você for o maior responsável pela derrota do seu time, o seu alinhamento (bem/mal) muda e você vence, mesmo estando morto. Caso bêbado/envenenado sua habilidade não tem efeito."
   },
   {
     "id": "widow",
@@ -1310,7 +1310,7 @@
     "edition": "",
     "team": "lacaio",
     "firstNight": 10,
-    "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um bom jogador. Informe-o que a Viúva está em jogo. Caso a Viuvá se escolha, nenhum jogador deverá ser acordado.",
+    "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um bom jogador. Informe-o que a Viúva está em jogo. Caso a Viuvá se escolha, nenhum jogador deverá ser acordado. Caso a Viúva fique bêbada/envenenada/morra, o veneno da Viúva cessa até que ela fique sóbria novamente. Quando o bom jogador que sabe que a viúva está em jogo muda o alinhamento para ser mau, outro jogador do time bom imediatamente descobre que a viúva está em jogo",
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Envenenado",
@@ -1337,9 +1337,9 @@
     "edition": "",
     "team": "demônio",
     "firstNight": 8,
-    "firstNightReminder": "Acorde todos os Lacaios. Os Lacaios escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio.",
+    "firstNightReminder": "Na primeira noite, pule as etapas de informações dos Lacaios e  as informações do demônio. Acorde todos os Lacaios. Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio.",
     "otherNight": 29,
-    "otherNightReminder": "Acorde todos os Lacaios. Os Lacaios escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio.",
+    "otherNightReminder": "Todos os Lacaios acordam ao mesmo tempo e escolhem um jogador que recebe o Bebê Monstro e se torna o Demônio. Escolha alguém para morrer mesmo que a babá atual do bebê mostro esteja bêbada/envenenada.",
     "reminders": ["Morto",
       "Demônio"],
     "setup": true,
