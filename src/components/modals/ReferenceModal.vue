@@ -46,9 +46,9 @@
           }}</span>
         </li>
       </ul>
-     }
-     </script>
     </div>
+    }
+     </script>
   </Modal>
 </template>
 
