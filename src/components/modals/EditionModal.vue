@@ -105,11 +105,11 @@ export default {
         ],
         [
           "The Power of the Death",
-          "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/82647742d27a8352acadd0b3634e03d9dd72599e/The%2520Power%2520of%2520Death.txt"
+          "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/b826d04999f90dc6463e39c6c21aae5b374d747b/The%2520Power%2520of%2520Death.txt"
         ],
         [
-          "Folia",
-          "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/d9995e6b4652b128b440f15b6f0d31cd7061fb2d/Folia.txt"
+          "Folia 5.0",
+          "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/f3219865864aec70027ecd2d9368c2d2452c96d9/Folia.txt"
         ],
         [
           "On Thin Ice (5 ou 6 jogadores)",
