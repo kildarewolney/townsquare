@@ -100,15 +100,15 @@ export default {
           "https://gist.githubusercontent.com/bra1n/8a5ec41a7bbf945f6b7dfc1cef72b569/raw/fed370d55554e0d83e9d56023c230099f41d0660/catfishing.json"
         ],
         [
-          "Madness",
+          "Madness Por: Kildare",
           "https://gist.githubusercontent.com/botcbr/3397ae5dd4f9747cf4c88823522e0b18/raw/bd19ff1e93d22997d756738b8877729be2b8777b/Madness.json"
         ],
         [
-          "The Power of the Death",
+          "The Power of the Death Por: Kildare",
           "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/7573c8953b789774eff1812a4f3afabca146da5b/The%2520Power%2520of%2520Death.txt"
         ],
         [
-          "Folia 5.1",
+          "Folia 5.1 Por: Kamekura",
           "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/f3219865864aec70027ecd2d9368c2d2452c96d9/Folia.txt"
         ],
         [
@@ -124,7 +124,7 @@ export default {
           "https://gist.githubusercontent.com/bra1n/63e1354cb3dc9d4032bcd0623dc48888/raw/5acb0eedcc0a67a64a99c7e0e6271de0b7b2e1b2/race-to-the-bottom.json"
         ],
         [
-          "Frankenstein's Mayor by Ted (5 ou 6 jogadores)",
+          "Frankenstein's Mayor por: Ted (5 ou 6 jogadores)",
           "https://gist.githubusercontent.com/bra1n/32c52b422cc01b934a4291eeb81dbcee/raw/5bf770693bbf7aff5e86601c82ca4af3222f4ba6/Frankensteins_Mayor_by_Ted.json"
         ],
         [
