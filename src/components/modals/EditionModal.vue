@@ -112,6 +112,10 @@ export default {
           "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/f3219865864aec70027ecd2d9368c2d2452c96d9/Folia.txt"
         ],
         [
+          "Trouble with Violets",
+          "https://gist.githubusercontent.com/botcbr/a9c768df3add03194b57a834f40e0069/raw/981bfe29ace12bff7483f5df2006126b80b735bf/TroubleWithViolets"
+        ],
+        [
           "On Thin Ice (5 ou 6 jogadores)",
           "https://gist.githubusercontent.com/bra1n/8dacd9f2abc6f428331ea1213ab153f5/raw/0cacbcaf8ed9bddae0cca25a9ada97e9958d868b/on-thin-ice.json"
         ],
