@@ -25,13 +25,11 @@
         </span>
       </li>
     </ul>
-    <script>
-    if (team == "cidadão") {
-    <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
-      <h4>{{ team }}</h4>
+    <div v-for="(teamRoles, cidadão) in rolesGrouped" :key="team" :team="[cidadão]">
+      <h4>{{ cidadão }}</h4>
       <ul>
-        <li v-for="role in teamRoles" :class="[team]" :key="role.id">
-          <span class="name">{{ role.name }}</span>
+        <li v-for="role in teamRoles" :team="[cidadão]" :key="role.id">
+          <span team="name">{{ role.name }}</span>
           <span
             class="icon"
             v-if="role.id"
@@ -47,8 +45,6 @@
         </li>
       </ul>
     </div>
-    }
-     </script>
   </Modal>
 </template>
 
