@@ -33,7 +33,7 @@
        Para jogar com um script personalizado, você precisa selecionar os personagens que deseja
        para jogar no oficial
       <a href="https://bloodontheclocktower.com/script-tool/" target="_blank"
-        >Script Tool</a
+        >Ferramenta de Script</a
       >
        e carregue o "custom-list.json" gerado diretamente aqui ou
        forneça uma URL para esse arquivo JSON hospedado.<br />
