@@ -26,6 +26,7 @@
       </li>
     </ul>
     <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
+     <div v-if="team === 'cidadão'">
       <h4>{{ team }}</h4>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
@@ -44,6 +45,7 @@
           }}</span>
         </li>
       </ul>
+      </div>
     </div>
   </Modal>
 </template>
