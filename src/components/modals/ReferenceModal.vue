@@ -25,8 +25,8 @@
         </span>
       </li>
     </ul>
-    <div v-for="cidadão in team" :key="cidadão" :class="[cidadão]">
-      <h4>{{ cidadão }}</h4>
+    <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
+      <h4>{{ team }}</h4>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
           <span class="name">{{ role.name }}</span>
@@ -51,7 +51,6 @@
 <script>
 import Modal from "./Modal";
 import { mapMutations, mapState } from "vuex";
-
 export default {
   components: {
     Modal
@@ -96,7 +95,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "../../vars.scss";
-
 .toggle {
   position: absolute;
   left: 20px;
@@ -106,14 +104,12 @@ export default {
     color: red;
   }
 }
-
 h3 {
   margin: 0 40px;
   svg {
     vertical-align: middle;
   }
 }
-
 h4 {
   text-transform: capitalize;
   display: flex;
@@ -133,7 +129,6 @@ h4 {
     margin-left: 15px;
   }
 }
-
 .cidadão {
   .name,
   .player,
