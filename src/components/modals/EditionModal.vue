@@ -64,13 +64,13 @@
       />
       <div class="button-group">
         <div class="button" @click="openUpload">
-          <font-awesome-icon icon="file-upload" /> Upload JSON
+          <font-awesome-icon icon="file-upload" /> Insira o Arquivo JSON
         </div>
         <div class="button" @click="promptURL">
-          <font-awesome-icon icon="link" /> Enter URL
+          <font-awesome-icon icon="link" /> Insira o Link
         </div>
         <div class="button" @click="isCustom = false">
-          <font-awesome-icon icon="undo" /> Back
+          <font-awesome-icon icon="undo" /> Voltar
         </div>
       </div>
     </div>
