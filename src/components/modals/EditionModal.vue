@@ -126,6 +126,10 @@ export default {
           "https://gist.githubusercontent.com/botcbr/a9c768df3add03194b57a834f40e0069/raw/a2f5b1d2c17ce21f80c96ab84405253757b2a104/TroubleWithViolets"
         ],
         [
+          "Evil's Dominion",
+          "https://gist.githubusercontent.com/botcbr/c6bf519baa9abef9014f51fb02ae1a9a/raw/ec8a302594345635100b1040bb85f5f044d87f48/Evil'sDominion"
+        ],
+        [
           "On Thin Ice (5 ou 6 jogadores)",
           "https://gist.githubusercontent.com/bra1n/8dacd9f2abc6f428331ea1213ab153f5/raw/0cacbcaf8ed9bddae0cca25a9ada97e9958d868b/on-thin-ice.json"
         ],
