@@ -101,15 +101,15 @@ export default {
       isCustom: false,
       scriptsbrasileiros:  [
         [
-          "BR: Madness Por: Kildare",
+          "Madness Por: Kildare",
           "https://gist.githubusercontent.com/botcbr/3397ae5dd4f9747cf4c88823522e0b18/raw/bd19ff1e93d22997d756738b8877729be2b8777b/Madness.json"
         ],
         [
-          "BR: The Power of the Death Por: Kildare",
+          "The Power of the Death Por: Kildare",
           "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/7573c8953b789774eff1812a4f3afabca146da5b/The%2520Power%2520of%2520Death.txt"
         ],
         [
-          "BR: Folia 5.1 Por: Kamekura",
+          "Folia 5.1 Por: Kamekura",
           "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/b35060c882c991661d43d99b9014e3128744388b/Folia.txt"        ]
        ],
       scripts: [
