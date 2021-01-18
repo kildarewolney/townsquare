@@ -61,9 +61,9 @@
         <li
           v-for="(brasileiros, index) in scripts"
           :key="index"
-          @click="handleURL(script[1])"
+          @click="handleURL(brasileiros[1])"
         >
-          {{ script[0] }}
+          {{ brasileiros[0] }}
         </li>
       </ul>
       <input
