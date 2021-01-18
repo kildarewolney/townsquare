@@ -56,6 +56,16 @@
           {{ script[0] }}
         </li>
       </ul>
+      <h3>Alguns scripts brasileiross:</h3>
+      <ul class="scripts">
+        <li
+          v-for="(brasileiros, index) in scripts"
+          :key="index"
+          @click="handleURL(script[1])"
+        >
+          {{ script[0] }}
+        </li>
+      </ul>
       <input
         type="file"
         ref="upload"
@@ -89,6 +99,12 @@ export default {
     return {
       editions: editionJSON,
       isCustom: false,
+      brasileiros: [
+        [
+          "Deadly Penance Day",
+          "https://gist.githubusercontent.com/bra1n/0337cc44c6fd2c44f7589256ed5486d2/raw/16be38fa3c01aaf49827303ac80577bdb52c0b25/penanceday.json"
+        ]
+     ]
       scripts: [
         [
           "Deadly Penance Day",
