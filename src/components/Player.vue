@@ -110,7 +110,7 @@
         <ul class="menu" v-if="isMenuOpen">
           <template v-if="!session.isSpectator">
             <li @click="changeName">
-              <font-awesome-icon icon="user-edit" />Rename
+              <font-awesome-icon icon="user-edit" />Renomear
             </li>
             <li v-if="!session.nomination" @click="nominatePlayer()">
               <font-awesome-icon icon="hand-point-right" />
