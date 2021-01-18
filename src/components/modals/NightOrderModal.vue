@@ -83,13 +83,13 @@ export default {
             id: "evil",
             name: "Informação dos Lacaios",
             firstNight: 2,
-            team: "lacaio"
+            team: "minion"
           },
           {
             id: "evil",
             name: "Informação do Demônio e Blefes",
             firstNight: 4,
-            team: "demônio"
+            team: "demon"
           }
         );
       }
