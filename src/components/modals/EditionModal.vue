@@ -46,20 +46,20 @@
       >
       sobre como escrever um arquivo de definição de caractere personalizado.
       <b>Carregue apenas arquivos JSON personalizados de fontes em que você confia!</b>
-      <h3>Alguns scripts personalizados populares:</h3>
+      <h3>Alguns scripts brasileiros:</h3>
       <ul class="scripts">
         <li
-          v-for="(script, index) in scripts"
+          v-for="(script, index) in scriptsbrasileiros"
           :key="index"
           @click="handleURL(script[1])"
         >
           {{ script[0] }}
         </li>
       </ul>
-     <h3>Alguns scripts brasileiros:</h3>
+      <h3>Alguns scripts personalizados populares:</h3>
       <ul class="scripts">
         <li
-          v-for="(script, index) in scriptsbrasileiros"
+          v-for="(script, index) in scripts"
           :key="index"
           @click="handleURL(script[1])"
         >
