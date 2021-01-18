@@ -127,7 +127,7 @@ export default {
         ],
         [
           "Evil's Dominion",
-          "https://gist.githubusercontent.com/botcbr/c6bf519baa9abef9014f51fb02ae1a9a/raw/ec8a302594345635100b1040bb85f5f044d87f48/Evil'sDominion"
+          "https://gist.githubusercontent.com/botcbr/c6bf519baa9abef9014f51fb02ae1a9a/raw/5202a96b7b238b54cd28e073f0a3f35543c2f993/Evil'sDominion"
         ],
         [
           "On Thin Ice (5 ou 6 jogadores)",
