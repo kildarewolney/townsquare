@@ -56,6 +56,16 @@
           {{ script[0] }}
         </li>
       </ul>
+     <h3>Alguns scripts brasileiros:</h3>
+      <ul class="scriptsbrasileiros">
+        <li
+          v-for="(script, index) in scripts"
+          :key="index"
+          @click="handleURL(script[1])"
+        >
+          {{ script[0] }}
+        </li>
+      </ul>
       <input
         type="file"
         ref="upload"
