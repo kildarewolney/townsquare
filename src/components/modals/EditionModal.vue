@@ -101,20 +101,6 @@ export default {
       isCustom: false,
       scriptsbrasileiros:  [
         [
-          "Deadly Penance Day",
-          "https://gist.githubusercontent.com/bra1n/0337cc44c6fd2c44f7589256ed5486d2/raw/16be38fa3c01aaf49827303ac80577bdb52c0b25/penanceday.json"
-        ]
-       ],
-      scripts: [
-        [
-          "Deadly Penance Day",
-          "https://gist.githubusercontent.com/bra1n/0337cc44c6fd2c44f7589256ed5486d2/raw/16be38fa3c01aaf49827303ac80577bdb52c0b25/penanceday.json"
-        ],
-        [
-          "Catfishing 9.0",
-          "https://gist.githubusercontent.com/bra1n/8a5ec41a7bbf945f6b7dfc1cef72b569/raw/fed370d55554e0d83e9d56023c230099f41d0660/catfishing.json"
-        ],
-        [
           "BR: Madness Por: Kildare",
           "https://gist.githubusercontent.com/botcbr/3397ae5dd4f9747cf4c88823522e0b18/raw/bd19ff1e93d22997d756738b8877729be2b8777b/Madness.json"
         ],
@@ -124,7 +110,16 @@ export default {
         ],
         [
           "BR: Folia 5.1 Por: Kamekura",
-          "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/b35060c882c991661d43d99b9014e3128744388b/Folia.txt"
+          "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/b35060c882c991661d43d99b9014e3128744388b/Folia.txt"        ]
+       ],
+      scripts: [
+        [
+          "Deadly Penance Day",
+          "https://gist.githubusercontent.com/bra1n/0337cc44c6fd2c44f7589256ed5486d2/raw/16be38fa3c01aaf49827303ac80577bdb52c0b25/penanceday.json"
+        ],
+        [
+          "Catfishing 9.0",
+          "https://gist.githubusercontent.com/bra1n/8a5ec41a7bbf945f6b7dfc1cef72b569/raw/fed370d55554e0d83e9d56023c230099f41d0660/catfishing.json"
         ],
         [
           "Trouble with Violets",
