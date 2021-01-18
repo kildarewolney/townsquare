@@ -26,8 +26,8 @@
       </li>
     </ul>
     <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
-     <div v-if="team === 'cidadão'">
-      <h4>{{ team }}</h4>
+     <div v-if="team === 'townsfolk'">
+      <h4>{{ "cidadão" }}</h4>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
           <span class="name">{{ role.name }}</span>
@@ -48,8 +48,8 @@
       </div>
     </div>
 <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
-     <div v-if="team === 'forasteiro'">
-      <h4>{{ team }}</h4>
+     <div v-if="team === 'outsider'">
+      <h4>{{ "forasteiro" }}</h4>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
           <span class="name">{{ role.name }}</span>
@@ -70,8 +70,8 @@
       </div>
     </div>
 <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
-     <div v-if="team === 'lacaio'">
-      <h4>{{ team }}</h4>
+     <div v-if="team === 'minion'">
+      <h4>{{ "lacaio" }}</h4>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
           <span class="name">{{ role.name }}</span>
@@ -92,8 +92,8 @@
       </div>
     </div>
 <div v-for="(teamRoles, team) in rolesGrouped" :key="team" :class="[team]">
-     <div v-if="team === 'demônio'">
-      <h4>{{ team }}</h4>
+     <div v-if="team === 'demon'">
+      <h4>{{ "demônio" }}</h4>
       <ul>
         <li v-for="role in teamRoles" :class="[team]" :key="role.id">
           <span class="name">{{ role.name }}</span>
@@ -197,7 +197,7 @@ h4 {
     margin-left: 15px;
   }
 }
-.cidadão {
+.townsfolk {
   .name,
   .player,
   h4 {
@@ -208,7 +208,7 @@ h4 {
     }
   }
 }
-.forasteiro {
+.outsider {
   .name,
   .player,
   h4 {
@@ -219,7 +219,7 @@ h4 {
     }
   }
 }
-.lacaio {
+.minion {
   .name,
   .player,
   h4 {
@@ -230,7 +230,7 @@ h4 {
     }
   }
 }
-.demônio {
+.demon {
   .name,
   .player,
   h4 {
