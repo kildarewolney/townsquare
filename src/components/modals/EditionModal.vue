@@ -57,7 +57,7 @@
         </li>
       </ul>
      <h3>Alguns scripts brasileiros:</h3>
-      <ul class="scriptsbrasileiros">
+      <ul class="scripts">
         <li
           v-for="(script, index) in scriptsbrasileiros"
           :key="index"
@@ -104,7 +104,7 @@ export default {
           "Deadly Penance Day",
           "https://gist.githubusercontent.com/bra1n/0337cc44c6fd2c44f7589256ed5486d2/raw/16be38fa3c01aaf49827303ac80577bdb52c0b25/penanceday.json"
         ]
-       ]
+       ],
       scripts: [
         [
           "Deadly Penance Day",
