@@ -56,16 +56,6 @@
           {{ script[0] }}
         </li>
       </ul>
-      <h3>Alguns scripts Br's:</h3>
-      <ul class="scripts">
-        <li
-          v-for="(script1, index) in scripts"
-          :key="index"
-          @click="handleURL(script[1])"
-        >
-          {{ script[0] }}
-        </li>
-      </ul>
       <input
         type="file"
         ref="upload"
@@ -91,7 +81,6 @@
 import editionJSON from "../../editions";
 import { mapMutations, mapState } from "vuex";
 import Modal from "./Modal";
-
 export default {
   components: {
     Modal
@@ -215,105 +204,6 @@ export default {
 };
 </script>
 
-<script>
-import editionJSON from "../../editions";
-import { mapMutations, mapState } from "vuex";
-import Modal from "./Modal";
-export default {
-  components: {
-    Modal
-  },
-  data: function() {
-    return {
-      editions: editionJSON,
-      isCustom: false,
-      scripts1: [
-        [
-          "Madness Por: Kildare",
-          "https://gist.githubusercontent.com/botcbr/3397ae5dd4f9747cf4c88823522e0b18/raw/bd19ff1e93d22997d756738b8877729be2b8777b/Madness.json"
-        ],
-        [
-          "The Power of the Death Por: Kildare",
-          "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/7573c8953b789774eff1812a4f3afabca146da5b/The%2520Power%2520of%2520Death.txt"
-        ],
-        [
-          "Folia 5.1 Por: Kamekura",
-          "https://gist.githubusercontent.com/botcbr/31e9d343d3a789d1a6137d767d67f0d2/raw/b35060c882c991661d43d99b9014e3128744388b/Folia.txt"
-        ],
-      ]
-    };
-  },
-  computed: mapState(["modals"]),
-  methods: {
-    openUpload() {
-      this.$refs.upload.click();
-    },
-    handleUpload() {
-      const file = this.$refs.upload.files[0];
-      if (file && file.size) {
-        const reader = new FileReader();
-        reader.addEventListener("load", () => {
-          try {
-            const roles = JSON.parse(reader.result);
-            this.parseRoles(roles);
-          } catch (e) {
-            alert("Error reading custom script: " + e.message);
-          }
-          this.$refs.upload.value = "";
-        });
-        reader.readAsText(file);
-      }
-    },
-    promptURL() {
-      const url = prompt("Enter URL to a custom-script.json file");
-      if (url) {
-        this.handleURL(url);
-      }
-    },
-    async handleURL(url) {
-      const res = await fetch(url);
-      if (res && res.json) {
-        try {
-          const script1 = await res.json();
-          this.parseRoles(script);
-        } catch (e) {
-          alert("Error loading custom script: " + e.message);
-        }
-      }
-    },
-    parseRoles(roles) {
-      if (!roles || !roles.length) return;
-      const metaIndex = roles.findIndex(({ id }) => id === "_meta");
-      let meta = {};
-      if (metaIndex > -1) {
-        meta = roles.splice(metaIndex, 1).pop();
-      }
-      const customRoles = roles.map(role => {
-        role.id = role.id.toLocaleLowerCase().replace(/[^a-z0-9]/g, "");
-        return role;
-      });
-      this.$store.commit("setCustomRoles", customRoles);
-      this.$store.commit(
-        "setEdition",
-        Object.assign({}, meta, { id: "custom" })
-      );
-      // check for fabled and set those too, if present
-      if (customRoles.some(({ id }) => this.$store.state.fabled.has(id))) {
-        const fabled = [];
-        customRoles.forEach(({ id }) => {
-          if (this.$store.state.fabled.has(id)) {
-            fabled.push(this.$store.state.fabled.get(id));
-          }
-        });
-        this.$store.commit("players/setFabled", { fabled });
-      }
-      this.isCustom = false;
-    },
-    ...mapMutations(["toggleModal", "setEdition"])
-  }
-};
-</script>
-
 <style scoped lang="scss">
 ul.editions .edition {
   font-family: PiratesBay, sans-serif;
@@ -333,7 +223,6 @@ ul.editions .edition {
     color: red;
   }
 }
-
 .custom {
   text-align: center;
   input[type="file"] {
