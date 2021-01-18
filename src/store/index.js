@@ -20,7 +20,7 @@ const getRolesByEdition = (edition = editionJSON[0]) => {
   return new Map(
     rolesJSON
       .filter(r => r.edition === edition.id || edition.roles.includes(r.id))
-      .sort((a, b) => a.team.localeCompare(b.team))
+      .sort((a, b) => b.team.localeCompare(a.team))
       .map(role => [role.id, role])
   );
 };
@@ -176,7 +176,7 @@ export default new Vuex.Store({
           // filter out roles that don't match an existing role and also don't have name/ability/team
           .filter(role => role.name && role.ability && role.team)
           // sort by team
-          .sort((a, b) => a.team.localeCompare(b.team))
+          .sort((a, b) => b.team.localeCompare(a.team))
           // convert to Map
           .map(role => [role.id, role])
       );
