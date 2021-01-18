@@ -189,7 +189,7 @@ h4 {
     }
   }
 }
-.cidadão {
+.townsfolk {
   .name,
   .player,
   h4 {
@@ -200,7 +200,7 @@ h4 {
     }
   }
 }
-.forasteiro {
+.outsider {
   .name,
   .player,
   h4 {
@@ -211,7 +211,7 @@ h4 {
     }
   }
 }
-.lacaio {
+.minion {
   .name,
   .player,
   h4 {
@@ -222,7 +222,7 @@ h4 {
     }
   }
 }
-.demônio {
+.demon {
   .name,
   .player,
   h4 {
