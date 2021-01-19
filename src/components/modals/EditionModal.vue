@@ -106,7 +106,7 @@ export default {
         ],
         [
           "The Power of the Death Por: Kildare",
-          "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/7573c8953b789774eff1812a4f3afabca146da5b/The%2520Power%2520of%2520Death.txt"
+          "https://gist.githubusercontent.com/botcbr/3086824e41906d9450a9ab63addd5cd8/raw/69e4a072633080c3f640f4dadd54a66933bfb3d2/The%2520Power%2520of%2520Death.txt"
         ],
         [
           "Folia 5.1 Por: Kamekura",
