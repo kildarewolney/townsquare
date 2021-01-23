@@ -1170,6 +1170,20 @@
     "ability": "Você começa o jogo sabendo quem é 1 jogador do mal. Se esse jogador do mal morrer, você descobre outro nesta noite. [1 Cidadão é Mal]"
   },
   {
+    "id": "pixie",
+    "name": "Pixie",
+    "edition": "",
+    "team": "townsfolk",
+    "firstNight": 19,
+    "firstNightReminder": "Informe um Cidadão que está em jogo para a Pixie.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": ["Mad",
+        "Has ability"],
+    "setup": false,
+    "ability": "Você começa o jogo sabendo 1 Cidadão em jogo. Se você estiver alucinando ser esse personagem, você ganha a habilidade dele quando ele morrer."
+  },
+  {
     "id": "preacher",
     "name": "Missionário",
     "edition": "",
