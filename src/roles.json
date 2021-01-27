@@ -300,7 +300,7 @@
     "otherNightReminder": "O Ladrão escolhe um jogador. Coloque o marcador de 'voto negativo' do Ladrão ao lado do Token de personagem do jogador escolhido.",
     "reminders": ["Voto Negativo"],
     "setup": false,
-    "ability": "Cada noite, escolha um jogador (você não pode escolher): O voto do escolhido pode contar negativamente amanhã."
+    "ability": "Cada noite, escolha um jogador (você não pode se escolher): O voto do escolhido pode contar negativamente amanhã."
   },
   {
     "id": "bureaucrat",
