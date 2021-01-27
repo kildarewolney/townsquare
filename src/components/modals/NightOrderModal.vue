@@ -93,7 +93,7 @@ export default {
         rolesFirstNight.push(
           {
             id: "evil",
-            name: "Informaação do Lacaio",
+            name: "Informação do Lacaio",
             firstNight: 2,
             team: "minion"
           },
