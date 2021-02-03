@@ -249,7 +249,7 @@ export default {
     },
     changeName() {
       if (this.session.isSpectator) return;
-      const name = prompt("Player name", this.player.name) || this.player.name;
+      const name = prompt("Nome do Jogador:", this.player.name) || this.player.name;
       this.updatePlayer("name", name, true);
     },
     removeReminder(reminder) {
