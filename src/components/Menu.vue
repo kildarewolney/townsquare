@@ -87,7 +87,7 @@
 
         <template v-if="tab === 'session'">
           <li class="headline" v-if="session.sessionId">
-            {{ session.isSpectator ? "Jogando" : "Hosteando" }}
+            {{ session.isSpectator ? "Jogando" : "Hospedando" }}
           </li>
           <li class="headline" v-else>
             Sessão
