@@ -269,7 +269,7 @@ export default {
       }
     },
     leaveSession() {
-      if (confirm("Are you sure you want to leave the active live game?")) {
+      if (confirm("Você tem certeza que quer sair desse jogo?")) {
         this.$store.commit("session/setSpectator", false);
         this.$store.commit("session/setSessionId", "");
       }
@@ -284,18 +284,18 @@ export default {
     },
     randomizeSeatings() {
       if (this.session.isSpectator) return;
-      if (confirm("Are you sure you want to randomize seatings?")) {
+      if (confirm("Você tem certeza que quer randomizar os assentos?")) {
         this.$store.dispatch("players/randomize");
       }
     },
     clearPlayers() {
       if (this.session.isSpectator) return;
-      if (confirm("Are you sure you want to remove all players?")) {
+      if (confirm("Você tem certeza que quer remover todos os jogadores?")) {
         this.$store.commit("players/clear");
       }
     },
     clearRoles() {
-      if (confirm("Are you sure you want to remove all player roles?")) {
+      if (confirm("Voce tem certeza que deseja remover todos os personagens?")) {
         this.$store.dispatch("players/clearRoles");
       }
     },
