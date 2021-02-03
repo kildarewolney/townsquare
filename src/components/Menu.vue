@@ -277,7 +277,7 @@ export default {
     addPlayer() {
       if (this.session.isSpectator) return;
       if (this.players.length >= 20) return;
-      const name = prompt("Player name");
+      const name = prompt("Nome do Jogador:");
       if (name) {
         this.$store.commit("players/add", name);
       }
