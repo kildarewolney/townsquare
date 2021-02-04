@@ -964,7 +964,7 @@
     "firstNight": 0,
     "firstNightReminder": "",
     "otherNight": 32,
-    "otherNightReminder": "Se o barbeiro morreu hoje: • Desperte o Demônio. Informe-o que o Barista morreu este dia. O Demônio pode recusar usar a habilidade do Barista ou escolher 2 jogadores que não são Demons. Se ele escolher jogadores: ◦ Troque as fichas de personagem. Acorde cada jogador. Informe-os quais são seus novos personagens.",
+    "otherNightReminder": "Se o Barbeiro morreu hoje: Desperte o Demônio. Informe-o que o Barbeiro morreu este dia. O Demônio pode recusar usar a habilidade do Barbeiro ou escolher 2 jogadores que não são Demônio. Se ele escolher jogadores: Troque as fichas de personagem. Acorde cada jogador. Informe-os quais são seus novos personagens.",
     "reminders": ["Troca"],
     "setup": false,
     "ability": "Se você morrer, esta Noite o Demônio pode escolher dois jogadores: eles trocam de personagens entre si."
