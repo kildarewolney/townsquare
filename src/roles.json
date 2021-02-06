@@ -1361,6 +1361,24 @@
     "ability": "A cada noite os Lacaios escolhem quem ficará com o token do Bebê Monstro e será o Demônio. Um jogador morre a cada noite. [+1 Lacaio]"
   },
   {
+    "id": "legion",
+    "name": "Legiãon",
+    "edition": "",
+    "team": "demon",
+    "firstNight": 38,
+    "firstNightReminder": "Informe a todos os jogadores da Legião quem pertence a Legião, as informações do Demônio deverão ser dadas a todos os membros da Legião",
+    "otherNight": 0,
+    "otherNightReminder": "Se ao menos um membro da Legião estiver sóbrio, alguém deve morrer esta noite.",
+    "reminders": ["Executado e do Bem",
+      "Dia 1",
+      "Dia 2",
+      "Dia 3",
+      "Dia 4",
+      "Dia 5"],
+    "setup": false,
+    "ability": "Cada noite*, um jogador deve morrer. Execuções irão falhar se apenas os jogadores maus votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
+  },
+  {
     "id": "leviathan",
     "name": "Leviathan",
     "edition": "",
