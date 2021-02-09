@@ -118,6 +118,10 @@ export default {
           "https://gist.githubusercontent.com/bra1n/0337cc44c6fd2c44f7589256ed5486d2/raw/16be38fa3c01aaf49827303ac80577bdb52c0b25/penanceday.json"
         ],
         [
+          "Paranoia",
+          "https://gist.githubusercontent.com/botcbr/e1b0cc322a71f92c28f736f01463313b/raw/c5ca27a6393d0c4a467bb600cbbe9f6fcf163ee3/gistfile1.txt"
+        ],
+        [
           "Catfishing 9.0",
           "https://gist.githubusercontent.com/bra1n/8a5ec41a7bbf945f6b7dfc1cef72b569/raw/fed370d55554e0d83e9d56023c230099f41d0660/catfishing.json"
         ],
