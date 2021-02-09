@@ -1372,7 +1372,7 @@
     "reminders": ["Morto",
         "Prestes a morrer"],
     "setup": true,
-    "ability": "Cada noite*, um jogador deve morrer. Execuções irão falhar se apenas os jogadores maus votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
+    "ability": "Cada noite*, um jogador pode morrer. Execuções irão falhar se apenas os jogadores maus votarem. Você também é registrado como um Lacaio. [Maioria dos jogadores é Legião]"
   },
   {
     "id": "leviathan",
