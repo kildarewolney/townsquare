@@ -690,7 +690,7 @@
     "reminders": ["Morto",
       "3 Ataques"],
     "setup": false,
-    "ability": "Toda Noite*, se quiser, escolha um jogador: ele morre. Se, por qualquer motivo, você não escolheu na Noite passada, escolha 3 jogadores: eles morrem na ordem que você escolheu."
+    "ability": "Toda Noite*, se quiser, escolha um jogador: ele morre. Se você optou por não escolher na Noite passada, escolha 3 jogadores: eles morrem na ordem que você escolheu."
   },
   {
     "id": "apprentice",
